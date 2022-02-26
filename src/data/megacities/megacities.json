@@ -1,0 +1,2962 @@
+[
+    {
+      "name" : "Deutsche Stadt",
+      "slug" : "deutsche-stadt",
+      "country" : "Germany",
+      "flag" : "de.png",
+      "type" : "megacity",
+      "year" : "2020",
+      "completed" : true,
+      "cities" : [
+        {
+          "name" : "Berlin",
+          "population" : "3,520,031",
+          "slug" : "berlin",
+          "video" : "https://www.youtube.com/watch?v=OEOqVNkISTk",
+          "artist" : "Bushido, Kay One, Fler",
+          "title" : "Berlins Most Wanted"
+        },
+        {
+          "name" : "Hamburg",
+          "population" : "1,787,408",
+          "slug" : "hamburg",
+          "video" : "https://www.youtube.com/watch?v=VJ95MMHSMtQ",
+          "artist" : "Samy Deluxe",
+          "title" : "Hamburg"
+        },
+        {
+          "name" : "München",
+          "englishName" : "Munich",
+          "population" : "1,450,381",
+          "slug" : "munich",
+          "video" : "https://www.youtube.com/watch?v=6trL0cvP9gs",
+          "artist" : "Johnny Suicide ft Munich Allstars",
+          "title" : "Muunchen is King"
+        },
+        {
+          "name" : "Köln",
+          "englishName" : "Cologne",
+          "population" : "1,060,582",
+          "slug" : "koln",
+          "video" : "https://www.youtube.com/watch?v=x65_s8T1SGQ",
+          "artist" : "Mo-Torres, Cat Ballou & Lukas Podolski",
+          "title" : "Liebe deine Stadt"
+        },
+        {
+          "name" : "Frankfurt am Main",
+          "englishName" : "Frankfurt",
+          "population" : "732,688",
+          "slug" : "frankfurt",
+          "video" : "https://www.youtube.com/watch?v=qgfHJBpbGLQ",
+          "artist" : "Born",
+          "title" : "So Frankfurt"
+        },
+        {
+          "name" : "Stuttgart",
+          "population" : "623,738",
+          "slug" : "stuttgart",
+          "video" : "https://www.youtube.com/watch?v=UvGrUxA5hFk",
+          "artist" : "Stadtlichters",
+          "title" : "Mein Stuggi"
+        },
+        {
+          "name" : "Düsseldorf",
+          "englishName" : "Dusseldorf",
+          "population" : "612,178",
+          "slug" : "dusseldorf",
+          "video" : "https://www.youtube.com/watch?v=orsT9kTmvLs",
+          "artist" : "Farid Bang",
+          "title" : "Ich bin Düsseldorf"
+        },
+        {
+          "name" : "Dortmund",
+          "population" : "586,181",
+          "slug" : "dortmund",
+          "video" : "https://www.youtube.com/watch?v=PD9UJejC_W0",
+          "artist" : "Reece",
+          "title" : "Dortmund meine Stadt"
+        },
+        {
+          "name" : "Essen",
+          "population" : "582,624",
+          "slug" : "essen",
+          "video" : "https://www.youtube.com/watch?v=evJ6mpqLfk8",
+          "artist" : "Sinan G",
+          "title" : "Mit Essen spielt man nicht"
+        }
+      ]
+    },
+    {
+      "name" : "中国市",
+      "englishName" : "Zhōngguó Shì",
+      "slug" : "zhongguo-shi",
+      "country" : "China",
+      "flag" : "cn.png",
+      "type" : "megacity",
+      "year" : "2020",
+      "completed" : true,
+      "cities" : [
+        {
+          "name" : "上海市",
+          "englishName" : "Shanghai",
+          "population" : "24,281,400",
+          "slug" : "shanghai",
+          "video" : "https://www.youtube.com/watch?v=b7ptBZJUFDM",
+          "artist" : "YK feat. Young Cee",
+          "title" : "中国说唱 夜上海 － Ye Shanghai"
+        },
+        {
+          "name" : "北京市",
+          "englishName" : "Beijing",
+          "population" : "21,542,000",
+          "slug" : "beijing",
+          "video" : "https://www.youtube.com/watch?v=Qh6lJWfYyTo&t=102s",
+          "artist" : "Hiding 隐藏",
+          "title" : "Zai Beijing 在北京"
+        },
+        {
+          "name" : "天津市",
+          "englishName" : "Tianjin",
+          "population" : "15,621,200",
+          "slug" : "tianjin",
+          "video" : "https://www.youtube.com/watch?v=rK4Zt63EbfY",
+          "artist" : "mc天津饭",
+          "title" : "天津范儿"
+        },
+        {
+          "name" : "广州市",
+          "englishName" : "Guangzhou",
+          "population" : "14,904,400",
+          "slug" : "guangzhou",
+          "video" : "https://www.youtube.com/watch?v=AN1CBbIKZjw&lc=Ugh6fvyyiaKovXgCoAEC",
+          "artist" : "Doughboy, Y-Man, Fat B",
+          "title" : "WILD 讲者"
+        },
+        {
+          "name" : "深圳市",
+          "englishName" : "Shenzhen",
+          "population" : "12,528,300",
+          "slug" : "shenzhen",
+          "video" : "https://www.youtube.com/watch?v=agm-ZQ90l-o&feature=emb_logo",
+          "artist" : "JR FOG",
+          "title" : "纯属虚构"
+        },
+        {
+          "name" : "东莞市",
+          "englishName" : "Dongguan",
+          "population" : "8,220,207",
+          "slug" : "dongguan",
+          "video" : "https://www.youtube.com/watch?v=Jot0ev7VPMs",
+          "artist" : "JB",
+          "title" : "潮共"
+        },
+        {
+          "name" : "重庆市",
+          "englishName" : "Chongqing",
+          "population" : "8,518,000",
+          "slug" : "chongqing",
+          "video" : "https://www.youtube.com/watch?v=r4GWF8_MgK4",
+          "artist" : "GO$H MUSIC",
+          "title" : "重庆说唱/饶舌"
+        }
+      ]
+    },
+    {
+      "name" : "America City",
+      "slug" : "america-city",
+      "country" : "USA",
+      "flag" : "us.png",
+      "type" : "megacity",
+      "year" : "2020",
+      "completed" : true,
+      "cities" : [
+        {
+          "name" : "New York City",
+          "population" : "8,398,748",
+          "slug" : "new-york-city",
+          "video" : "https://www.youtube.com/watch?v=mVnoNpncfh0",
+          "artist" : "Lord Tariq, Peter Gunz",
+          "title" : "Déjà Vu (Uptown Baby)"
+        },
+        {
+          "name" : "Los Angeles",
+          "population" : "3,990,456",
+          "slug" : "los-angeles",
+          "video" : "https://www.youtube.com/watch?v=utsHQy3ywS8",
+          "artist" : "WC",
+          "title" : "This is Los Angeles"
+        },
+        {
+          "name" : "Chicago",
+          "population" : "2,705,994",
+          "slug" : "chicago",
+          "video" : "https://www.youtube.com/watch?v=Hu8PtiN0Ce8",
+          "artist" : "King Louie",
+          "title" : "Live & Die In Chicago"
+        },
+        {
+          "name" : "Houston",
+          "population" : "2,325,502",
+          "slug" : "houston",
+          "video" : "https://www.youtube.com/watch?v=dU-D4u9WIh8",
+          "artist" : "Slim Thug ft Paul Wall",
+          "title" : "Houston"
+        },
+        {
+          "name" : "Phoenix",
+          "population" : "1,660,272",
+          "slug" : "phoenix",
+          "video" : "https://www.youtube.com/watch?v=VlNqN118HSc",
+          "artist" : "K.A.A.N.",
+          "title" : "PHOENIX"
+        },
+        {
+          "name" : "Philadelphia",
+          "population" : "1,584,138",
+          "slug" : "philadelphia",
+          "video" : "https://www.youtube.com/watch?v=BsK-OxJQJP8",
+          "artist" : "Vinnie Paz",
+          "title" : "Cheesesteaks"
+        },
+        {
+          "name" : "San Antonio",
+          "population" : "1,532,233",
+          "slug" : "san-antonio",
+          "video" : "https://www.youtube.com/watch?v=-KB7JA4-Qcc",
+          "artist" : "San Antone Stand Up",
+          "title" : "B I-Double ft Isaac P and Yung Reese"
+        },
+        {
+          "name" : "San Diego",
+          "population" : "1,425,976",
+          "slug" : "san-diego",
+          "video" : "https://www.youtube.com/watch?v=CLAZInIGldw",
+          "artist" : "Stalker",
+          "title" : "SD Roll Call"
+        }
+      ]
+    },
+    { 
+      "name" : "المدينة العربية",
+      "englishName" : "Almadinat Alearabia",
+      "slug" : "almadinat-alearabia",
+      "country" : "Arab League",
+      "flag" : "arab.png",
+      "year" : "2021",
+      "type" : "megacity",
+      "completed" : true,
+      "cities" : [
+        {
+          "name" : "القاهرة",
+          "englishName" : "Cairo",
+          "slug" : "cairo",
+          "lat" : 30.033333,
+          "lng" : 31.233333,
+          "population" : "10,025,657",
+          "video": "https://www.youtube.com/watch?v=2AFqG8xXSSg",
+          "artist" : "3enba x Double Zuksh",
+          "title" : "Clip Cairo Up"
+        },
+        {
+          "name" : "بَغْدَاد",
+          "englishName" : "Baghdad",
+          "slug" : "baghdad",
+          "lat" : 33.333333,
+          "lng" : 44.383333,
+          "population" : "8,126,755",
+          "video": "https://www.youtube.com/watch?v=fvxZLKtkgiM",
+          "artist" : "I-NZ",
+          "title" : "THIS IS IRAQ"
+        },
+        {
+          "name" : "الرياض",
+          "englishName" : "Riyadh",
+          "slug" : "riyadh",
+          "lat" : 24.633333,
+          "lng" : 46.716667,
+          "population" : "7,676,654",
+          "video": "https://www.youtube.com/watch?v=Fsud8Sqsh8I",
+          "artist" : "Sons of Yusuf",
+          "title" : "HALA"
+        },
+        {
+          "name" : "عَمَّان",
+          "englishName" : "Amman",
+          "slug" : "amman",
+          "lat" : 31.949722,
+          "lng" : 35.932778,
+          "population" : "4,302,730",
+          "video": "https://www.youtube.com/watch?v=5zGnGeiMun8",
+          "artist" : "ترابية (مع حسام عابد)",
+          "title" : "غربة"
+        },
+        {
+          "name" : "الجزائر",
+          "englishName" : "Algiers",
+          "slug" : "algiers",
+          "lat" : 36.753889,
+          "lng" : 3.058889,
+          "population" : "3,915,811",
+          "video": "https://www.youtube.com/watch?v=yqUYKx8iUrY",
+          "artist" : "Krilino",
+          "title" : "En direct d'Alger"
+        },
+        {
+          "name" : "الدار البيضاء",
+          "englishName" : "Casablanca",
+          "slug" : "casablanca",
+          "lat" : 33.573974,
+          "lng" : "-7.608543",
+          "population" : "3,359,818",
+          "video": "https://www.youtube.com/watch?v=rjrcALUu8LY",
+          "artist" : "Baby Gang feat. Morad",
+          "title" : "Casablanca"
+        },
+        {
+          "name" : "دبي",
+          "englishName" : "Dubai",
+          "slug" : "dubai",
+          "lat" : 25.263056,
+          "lng" : 55.297222,
+          "population" : "3,331,420",
+          "video": "https://www.youtube.com/watch?v=80YntX64FjE",
+          "artist" : "Rondo",
+          "title" : "DUBAI"
+        },
+        {
+          "name" : "دمشق",
+          "englishName" : "Damascus",
+          "slug" : "damascus",
+          "lat" : 33.513056,
+          "lng" : 36.291944,
+          "population" : "2,079,000",
+          "video": "https://www.youtube.com/watch?v=AMtW_9zvfaQ",
+          "artist" : "اسماعيل تمر",
+          "title" : "الجمهورية السورية"
+        },
+        {
+          "name" : "بيروت",
+          "englishName" : "Beirut",
+          "slug" : "beirut",
+          "lat" : 33.886944,
+          "lng" : 35.513056,
+          "population" : "2,200,000",
+          "video": "https://www.youtube.com/watch?v=3FbTjne4MVE",
+          "artist" : "Nizar Zgheib",
+          "title" : "Law7a (لوحة)"
+        }
+      ]
+    },
+    {
+      "name" : "Türkiye Sehir",
+      "slug" : "turkiye-sehri",
+      "country" : "Turkey",
+      "flag" : "tr.png",
+      "year" : "2021",
+      "type" : "megacity",
+      "completed" : true,
+      "cities" : [
+        {
+          "name" : "Istanbul",
+          "slug" : "istanbul",
+          "lat" : 41.013611,
+          "lng" : 28.955,
+          "population" : "15,462,452",
+          "video" : "https://www.youtube.com/watch?v=Sxd_ypvU6Nw",
+          "artist" : "Nefret",
+          "title" : "Istanbul" 
+        },
+        {
+          "name" : "Ankara",
+          "slug" : "ankara",
+          "lat" : 39.93,
+          "lng" : 32.85,
+          "population" : "5,663,322",
+          "video" : "https://www.youtube.com/watch?v=bx3htkXbOkk",
+          "artist" : "Evgi",
+          "title" : "ANKARA ÇUKUR TOFAŞK RAP" 
+        },
+        {
+          "name" : "İzmir",
+          "slug" : "izmir",
+          "lat" : 38.42,
+          "lng" : 27.14,
+          "population" : "2,965,900",
+          "video" : "https://www.youtube.com/watch?v=8xk4UarkXcU",
+          "artist" : "Ben Fero",
+          "title" : "Mahallemiz Esmer" 
+        },
+        {
+          "name" : "Bursa",
+          "slug" : "bursa",
+          "lat" : 40.183333,
+          "lng" : 29.05,
+          "population" : "2,161,990",
+          "video" : "https://www.youtube.com/watch?v=bK8UcSMOjeI",
+          "artist" : "Bursa Clan",
+          "title" : "Biz Bitti Demeden Bitmez" 
+        },
+        {
+          "name" : "Adana",
+          "slug" : "adana",
+          "lat" : 37,
+          "lng" : 35.321333,
+          "population" : "1,768,860",
+          "video" : "https://www.youtube.com/watch?v=yiOl97ljsLY",
+          "artist" : "Isyan Tetick",
+          "title" : "Adana Merkez Patlıyor Herkes" 
+        },
+        {
+          "name" : "Gaziantep",
+          "slug" : "gaziantep",
+          "lat" : 37.066667,
+          "lng" : 37.383333,
+          "population" : "1,721,475",
+          "video" : "https://www.youtube.com/watch?v=CmvIUoJZUDY",
+          "artist" : "Darbeci KraL",
+          "title" : "AYANLARA" 
+        },
+        {
+          "name" : "Konya",
+          "slug" : "konya",
+          "lat" : 37.866667,
+          "lng" : 32.483333,
+          "population" : "1,346,330",
+          "video" : "https://www.youtube.com/watch?v=7vu7gwwbOVU",
+          "artist" : "Kaca ft. Oguz-Rap & V-Bang",
+          "title" : "Burasi Konya" 
+        },
+        {
+          "name" : "Antalya",
+          "slug" : "antalya",
+          "lat" : 36.8874,
+          "lng" : 30.7075,
+          "population" : "955,573",
+          "video" : "https://www.youtube.com/watch?v=WiZJ0DrqKVI",
+          "artist" : "KORAY BEYOGLU",
+          "title" : "ANTALYA CİTY" 
+        },
+        {
+          "name" : "Kayseri",
+          "slug" : "kayseri",
+          "lat" : 38.7225,
+          "lng" : 35.4875,
+          "population" : "911,984",
+          "video" : "https://www.youtube.com/watch?v=H8Aup7i1lJc",
+          "artist" : "Kayseri Ordusu",
+          "title" : "Diss To Asi Stayla" 
+        }
+      ]
+    },
+    {
+      "name" : "Jугославоград / Jugoslavograd",
+      "slug" : "yugograd",
+      "country" : "Yugoslavia",
+      "flag" : "yu.png",
+      "year" : "2021",
+      "type" : "megacity",
+      "completed" : true,
+      "cities" : [
+        {
+          "name" : "Београд",
+          "englishName" : "Belgrade",
+          "slug" : "belgrade",
+          "population" : "1,166,763",
+          "lat" : 44.816667,
+          "lng" : 20.466667,
+          "video" : "https://www.youtube.com/watch?v=9ZbXgv9Wvck",
+          "artist" : "Djolo ft. RBS & Sha",
+          "title" : "Moj Beograd"
+        },
+        {
+          "name" : "Zagreb",
+          "slug" : "zagreb",
+          "population" : "807,254",
+          "lat" : 45.816667,
+          "lng" : 15.983333,
+          "video" : "https://www.youtube.com/watch?v=VBB_yT8pKmw",
+          "artist" : "Stoka",
+          "title" : "Ja sam Zagreb"
+        },
+        {
+          "name" : "Ljubljana",
+          "slug" : "ljubljana",
+          "population" : "295,504",
+          "lat" : 46.055556,
+          "lng" : 14.508333,
+          "video" : "https://www.youtube.com/watch?v=ESe0kU8A_jA",
+          "artist" : "GHET",
+          "title" : "Z Bloka Snajper"
+        },
+        {
+          "name" : "Сарајево",
+          "englishName" : "Sarajevo",
+          "slug" : "sarajevo",
+          "population" : "555,210",
+          "lat" : 43.866667,
+          "lng" : 18.416667,
+          "video" : "https://www.youtube.com/watch?v=03CV-KJrsWg",
+          "artist" : "Edo Maajka",
+          "title" : "Zlatna dolina / Sarajevo"
+        },
+        {
+          "name" : "Pristina",
+          "slug" : "pristina",
+          "population" : "198,897",
+          "lat" : 42.663333,
+          "lng" : 21.162222,
+          "video" : "https://www.youtube.com/watch?v=s8cOBFStYhM",
+          "artist" : "Ledri Vula",
+          "title" : "Kings"
+        },
+        {
+          "name" : "Подгорица",
+          "englishName" : "Podgorica",
+          "slug" : "podgorica",
+          "population" : "185,915",
+          "lat" : 42.441286,
+          "lng" : 19.262892,
+          "video" : "https://www.youtube.com/watch?v=yZlShST4U0o",
+          "artist" : "Warlock ft. 2JNK & Dvorska Luda",
+          "title" : "Joe Shua Kizz"
+        },
+        {
+          "name" : "Скопје",
+          "englishName" : "Skopje",
+          "slug" : "skopje",
+          "population" : "506,926",
+          "lat" : 42,
+          "lng" : 21.433333,
+          "video" : "https://www.youtube.com/watch?v=SN9IkIPF5jY",
+          "artist" : "Toni Zen",
+          "title" : "Skopje Moj Grad"
+        },
+        {
+          "name" : "Нови Сад",
+          "englishName" : "Novi Sad",
+          "slug" : "novi-sad",
+          "population" : "341,625",
+          "lat" : 45.25,
+          "lng" : 19.85,
+          "video" : "https://www.youtube.com/watch?v=ksr4UPT4E4w",
+          "artist" : "JOVICA DOBRICA",
+          "title" : "Novi Sad"
+        },
+        {
+          "name" : "Ниш",
+          "englishName" : "Niš",
+          "slug" : "nis",
+          "population" : "260,237",
+          "lat" : 43.320833,
+          "lng" : 21.895833,
+          "video" : "https://www.youtube.com/watch?v=8tY2ovzCcrY",
+          "artist" : "Spekt",
+          "title" : "Stari Niš"
+        }
+      ]
+    },
+    {
+      "name" : "भारत शहर",
+      "englishName" : "Bhaarat Shahar",
+      "slug" : "bhaarat-shahar",
+      "country" : "India",
+      "flag" : "in.png",
+      "type" : "megacity",
+      "completed" : false,
+      "cities" : [
+        {
+          "name" : "मुम्बई",
+          "englishName" : "Mumbai",
+          "slug" : "mumbai",
+          "lat" : 19.010516,
+          "lng" : 72.859117,
+          "population" : "12,478,447",
+          "video" : "https://www.youtube.com/watch?v=m0-PHpSh9-I",
+          "artist" : "EMCEE RHYMESTER",
+          "title" : "Mumbai Anthem" 
+        },
+        {
+          "name" : "दिल्ली",
+          "englishName" : "Delhi",
+          "slug" : "delhi",
+          "lat" : 28.61,
+          "lng" : 77.23,
+          "population" : "11,034,555",
+          "video" : "https://www.youtube.com/watch?v=y_1ZI3gKbeA",
+          "artist" : "K-NAV x SSHIV",
+          "title" : "MERI DILLI" 
+        },
+        {
+          "name" : "बैंगलोर",
+          "englishName" : "Bangalore",
+          "slug" : "bangalore",
+          "lat" : 12.979,
+          "lng" : 77.591,
+          "population" : "8,443,675",
+          "video" : "https://www.youtube.com/watch?v=Nh5tAdfPJ8o",
+          "artist" : "Abhi Anand",
+          "title" : "NAMMA BENGALURU" 
+        },
+        {
+          "name" : "हैदराबाद",
+          "englishName" : "Hyderabad",
+          "slug" : "hyderabad",
+          "lat" : 17.361719,
+          "lng" : 78.475166,
+          "population" : "6,809,970",
+          "video" : "https://www.youtube.com/watch?v=5qbbgonAOCI",
+          "artist" : "Shooter | Ahsaas | Mj Robb",
+          "title" : "Hyderabad City" 
+        },
+        {
+          "name" : "अहमदाबाद",
+          "englishName" : "Ahmedabad",
+          "slug" : "ahmedabad",
+          "lat" : 23.03,
+          "lng" : 72.58,
+          "population" : "5,633,927",
+          "video" : "https://www.youtube.com/watch?v=YaT3TrCTTGM",
+          "artist" : "Aapnu Amdavad",
+          "title" : "Ahmedabad Rap Anthem" 
+        },
+        {
+          "name" : "चेन्नई",
+          "englishName" : "Chennai",
+          "slug" : "chennai",
+          "lat" : 13.083694,
+          "lng" : 80.270186,
+          "population" : "4,681,087",
+          "video" : "https://www.youtube.com/watch?v=kqRkuR_9Lvg",
+          "artist" : "Chennai Rap Cypher",
+          "title" : "Chennai Hip Hop United" 
+        },
+        {
+          "name" : "कोलकाता",
+          "englishName" : "Kolkata",
+          "slug" : "kolkata",
+          "lat" : 22.5675,
+          "lng" : 88.37,
+          "population" : "4,496,694",
+          "video" : "https://www.youtube.com/watch?v=LgLxiqDJZHU",
+          "artist" : "Dishy Avant | J Department Music | Jacky",
+          "title" : "Kolkata Gully Rap: ROYAL BENGAL" 
+        }
+      ]
+    },
+    {
+      "name" : "Cidade do Brasil",
+      "slug" : "cidade-do-brasil",
+      "country" : "Brazil",
+      "flag" : "br.png",
+      "year" : "2021",
+      "type" : "megacity",
+      "completed" : false,
+      "cities" : [
+          {
+              "name" : "São Paulo",
+              "population" : "12,325,232",
+              "lat": -23.55,
+              "lng" : -46.633333,
+              "slug" : "sao-paulo",
+              "video" : "",
+              "artist" : "",
+              "title" : ""
+          },
+          {
+              "name" : "Rio de Janeiro",
+              "population" : "6,747,815",
+              "lat": -22.911366,
+              "lng" : -43.205916,
+              "slug" : "rio-de-janeiro",
+              "video" : "",
+              "artist" : "",
+              "title" : ""
+          },
+          {
+              "name" : "Brasília",
+              "population" : "3,039,444",
+              "lat": -15.793889,
+              "lng" : -47.882778,
+              "slug" : "brasilia",
+              "video" : "",
+              "artist" : "",
+              "title" : ""
+          },
+          {
+              "name" : "Salvador",
+              "population" : "2,886,698",
+              "lat": -12.974722,
+              "lng" : -38.476667,
+              "slug" : "salvador",
+              "video" : "",
+              "artist" : "",
+              "title" : ""
+          },
+          {
+              "name" : "Belo Horizonte",
+              "population" : "2,721,564",
+              "lat": -19.916667,
+              "lng" : -43.933333,
+              "slug" : "belo-horizonte",
+              "video" : "",
+              "artist" : "",
+              "title" : ""
+          },
+          {
+              "name" : "Fortaleza",
+              "population" : "2,686,612",
+              "lat": -3.7275,
+              "lng" : -38.5275,
+              "slug" : "fortaleza",
+              "video" : "",
+              "artist" : "",
+              "title" : ""
+          },
+          {
+              "name" : "Manaus",
+              "population" : "2,219,580",
+              "lat": -3.1,
+              "lng" : -60.016667,
+              "slug" : "manaus",
+              "video" : "",
+              "artist" : "",
+              "title" : ""
+          },
+          {
+              "name" : "Curitiba",
+              "population" : "1,948,626",
+              "lat": -25.416667,
+              "lng" : -49.25,
+              "slug" : "curitiba",
+              "video" : "",
+              "artist" : "",
+              "title" : ""
+          }          
+      ]
+    },
+    {
+      "name" : "Ciudad de Columbia",
+      "slug" : "ciudad-de-columbia",
+      "country" : "columbia",
+      "flag" : "co.png",
+      "year" : "2021",
+      "type" : "megacity",
+      "completed" : false,
+      "cities" : [
+        {
+          "name" : "Bogotá",
+          "slug" : "bogota",
+          "population" : "7,412,566",
+          "lat" : 4.711111,
+          "lng" : "-74.072222",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Medellín",
+          "slug" : "Medellin",
+          "population" : "2,569,007",
+          "lat" : 6.230833,
+          "lng" : "-75.590556",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Cali",
+          "slug" : "cali",
+          "population" : "2,227,642",
+          "lat" : 3.420556,
+          "lng" : "-76.522222",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Barranquilla",
+          "slug" : "barranquilla",
+          "population" : "2,206,319",
+          "lat" : 10.963889,
+          "lng" : "-74.796389",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Cartagena",
+          "slug" : "cartagena",
+          "population" : "1,036,134",
+          "lat" : 10.4,
+          "lng" : "-75.5",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Cúcuta",
+          "slug" : "cucuta",
+          "population" : "777,106",
+          "lat" : 7.894167,
+          "lng" : "-72.503889",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Ibagué",
+          "slug" : "ibague",
+          "population" : "529,635",
+          "lat" : 4.433333,
+          "lng" : "-75.233333",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Soacha",
+          "slug" : "soacha",
+          "population" : "522,442",
+          "lat" : 4.587222,
+          "lng" : "-74.221389",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Bucaramanga",
+          "slug" : "bucaramanga",
+          "population" : "581,130",
+          "lat" : 7.1305320170972175, 
+          "lng" : "-73.11898828412485",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        }
+      ]
+    },
+    {
+      "name" : "Ciudad de España",
+      "slug" : "ciudad-de-espana",
+      "country" : "spain",
+      "flag" : "es.png",
+      "year" : "2021",
+      "type" : "megacity",
+      "completed" : false,
+      "cities" : [
+        {
+          "name" : "Madrid",
+          "slug" : "madrid",
+          "population" : "6,345,000",
+          "lat" : 40.416667,
+          "lng" : "-3.716667",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Barcelona",
+          "slug" : "barcelona",
+          "population" : "4,840,000",
+          "lat" : 41.383333,
+          "lng" : 2.183333,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Valencia",
+          "slug" : "valencia",
+          "population" : "1,595,000",
+          "lat" : 39.47,
+          "lng" : "-0.376389",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Seville",
+          "slug" : "seville",
+          "population" : "1,107,000",
+          "lat" : 37.39,
+          "lng" : "-5.99",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Bilbao",
+          "slug" : "bilbao",
+          "population" : "1,037,847",
+          "lat" : 43.256944,
+          "lng" : "-2.923611",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Málaga",
+          "slug" : "malaga",
+          "population" : "967,250",
+          "lat" : 36.719444,
+          "lng" : "-4.42",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Zaragoza",
+          "slug" : "zaragoza",
+          "population" : "681,877",
+          "lat" : 41.65,
+          "lng" : "-0.883333",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Palma",
+          "slug" : "palma",
+          "population" : "550,000",
+          "lat" : 39.566667,
+          "lng" : 2.65,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Las Palmas de Gran Canaria",
+          "slug" : "las-palmas-de-gran-canaria",
+          "population" : "378,517",
+          "lat" : 28.15,
+          "lng" : "-15.416667",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        }
+      ]
+    },
+    {
+      "name" : "한국 도시",
+      "englishName" : "Hangug Dosi",
+      "slug" : "hangug-dosi",
+      "country" : "korea",
+      "flag" : "kr.png",
+      "year" : "2021",
+      "type" : "megacity",
+      "completed" : false,
+      "cities" : [
+        {
+          "name" : "서울시",
+          "englishName" : "Seoul",
+          "slug" : "seoul",
+          "population" : "9,733,509",
+          "lat" : 37.579198,
+          "lng" : 126.977489,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "부산시",
+          "englishName" : "Busan",
+          "slug" : "busan",
+          "population" : "3,411,829",
+          "lat" : 35.166667,
+          "lng" : 129.066667,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "인천시",
+          "englishName" : "Incheon",
+          "slug" : "incheon",
+          "population" : "2,954,955",
+          "lat" : 37.455151,
+          "lng" : 126.705144,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "대구시",
+          "englishName" : "Daegu",
+          "slug" : "daegu",
+          "population" : "2,446,144",
+          "lat" : 35.866667,
+          "lng" : 128.6,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "대전시",
+          "englishName" : "Daejeon",
+          "slug" : "daejeon",
+          "population" : "1,508,120",
+          "lat" : 36.351,
+          "lng" : 127.385,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "광주시",
+          "englishName" : "Gwangju",
+          "slug" : "gwangju",
+          "population" : "1,490,092",
+          "lat" : 35.162328,
+          "lng" : 126.851909,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "울산시",
+          "englishName" : "Ulsan",
+          "slug" : "ulsan",
+          "population" : "1,163,690",
+          "lat" : 35.549999,
+          "lng" : 129.316666,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "창원시",
+          "englishName" : "Changwon",
+          "slug" : "changwon",
+          "population" : "1,070,199",
+          "lat" : 35.241816,
+          "lng" : 128.607932,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        }
+      ]
+    },
+    {
+      "name" : "Ciudad Méxicana",
+      "slug" : "ciudad-mexicana",
+      "country" : "mexico",
+      "flag" : "mx.png",
+      "year" : "2021",
+      "type" : "country",
+      "completed" : false,
+      "cities" : [
+        {
+          "name" : "Ciudad de México",
+          "englishName" : "Mexico City",
+          "slug" : "ciudad-de-mexico",
+          "population" : "12,294,193",
+          "lat" : 19.433333,
+          "lng" : "-99.133333",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Guadalajara",
+          "slug" : "guadalajara",
+          "population" : "1,460,148",
+          "lat" : 20.676667,
+          "lng" : "-103.3475",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Puebla",
+          "slug" : "puebla",
+          "population" : "1,692,181",
+          "lat" : 19.033333,
+          "lng" : "-98.183333",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Ciudad Juárez",
+          "slug" : "ciudad-juarez",
+          "population" : "1,501,551",
+          "lat" : 31.738581,
+          "lng" : "-106.487014",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Tijuana",
+          "slug" : "tijuana",
+          "population" : "1,810,645",
+          "lat" : 32.525,
+          "lng" : "-117.033333",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "León",
+          "slug" : "leon",
+          "population" : "1,721,199",
+          "lat" : 21.116667,
+          "lng" : "-101.683333",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Monterrey",
+          "slug" : "monterrey",
+          "population" : "1,109,171",
+          "lat" : 25.666667,
+          "lng" : "-100.3",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Chihuahua",
+          "slug" : "chihuahua",
+          "population" : "878,062",
+          "lat" : 28.635278,
+          "lng" : "-106.088889",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Mérida",
+          "slug" : "merida",
+          "population" : "892,363",
+          "lat" : 20.97,
+          "lng" : "-89.62",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        }
+      ]
+    },
+    {
+      "name" : "Garin Nigeria",
+      "slug" : "garin-nigeria",
+      "country" : "nigeria",
+      "flag" : "ng.png",
+      "year" : "2021",
+      "type" : "megacity",
+      "completed" : false,
+      "cities" : [
+        {
+          "name" : "Èkó",
+          "englishName" : "Lagos",
+          "slug" : "lagos",
+          "population" : "23,437,435",
+          "lat" : 6.455027,
+          "lng" : 3.384082,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "كانو",
+          "englishName" : "Kano",
+          "slug" : "kano",
+          "population" : "4,103,000",
+          "lat" : 12,
+          "lng" : 8.516667,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Ibadan",
+          "slug" : "ibadan",
+          "population" : "3,649,000",
+          "lat" : 7.396389,
+          "lng" : 3.916667,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Benin City",
+          "slug" : "benin-city",
+          "population" : "1,782,000",
+          "lat" : 6.333333,
+          "lng" : 5.622222,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Ikwerre",
+          "englishName" : "Port Harcourt",
+          "slug" : "port-harcourt",
+          "population" : "1,148,665",
+          "lat" : 4.824167,
+          "lng" : 7.033611,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Jos",
+          "slug" : "jos",
+          "population" : "821,618",
+          "lat" : 9.916667,
+          "lng" : 8.890278,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Abuja",
+          "slug" : "abuja",
+          "population" : "1,235,880",
+          "lat" : 9.066667,
+          "lng" : 7.483333,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Kaduna",
+          "slug" : "kaduna",
+          "population" : "760,084",
+          "lat" : 10.523056,
+          "lng" : 7.440278,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Enugu",
+          "slug" : "enugu",
+          "population" : "722,664",
+          "lat" : 6.452778,
+          "lng" : 7.511111,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        }
+      ]
+    },
+    {
+      "name" : "ジャパンシティ",
+      "slug" : "japanshiti",
+      "country" : "Japan",
+      "flag" : "jp.png",
+      "year" : "2021",
+      "type" : "megacity",
+      "completed" : false,
+      "cities" : [
+          {
+              "name" : "東京都",
+              "englishName" : "Tokyo",
+              "population" : "8,336,599",
+              "lat": 35.689722,
+              "lng" : 139.692222,
+              "slug" : "tokyo",
+              "video" : "",
+              "artist" : "",
+              "title" : ""
+          },
+          {
+              "name" : "横浜市",
+              "englishName" : "Yokohama",
+              "population" : "3,574,443",
+              "lat": 35.444167,
+              "lng" : 139.638056,
+              "slug" : "yokohama",
+              "video" : "",
+              "artist" : "",
+              "title" : ""
+          },
+          {
+              "name" : "大阪市",
+              "englishName" : "Osaka",
+              "population" : "2,592,413",
+              "lat": 34.693889,
+              "lng" : 135.502222,
+              "slug" : "osaka",
+              "video" : "",
+              "artist" : "",
+              "title" : ""
+          },
+          {
+              "name" : "川崎市",
+              "englishName" : "Kawasaki",
+              "population" : "3,761,630",
+              "lat": 35.516667,
+              "lng" : 139.7,
+              "slug" : "kawasaki",
+              "video" : "",
+              "artist" : "",
+              "title" : ""
+          },
+          {
+            "name" : "名古屋市",
+            "englishName" : "Nagoya",
+            "population" : "2,331,078",
+            "lat": 35.183333, 
+            "lng" : 136.9,
+            "slug" : "nagoya",
+            "video" : "",
+            "artist" : "",
+            "title" : ""
+          },
+          {
+            "name" : "札幌市",
+            "englishName" : "Sapporo",
+            "population" : "1,973,832",
+            "lat": 43.066667,
+            "lng" : 141.35,
+            "slug" : "sapporo",
+            "video" : "",
+            "artist" : "",
+            "title" : ""
+          },
+          {
+            "name" : "福岡市",
+            "englishName" : "Fukuoka",
+            "population" : "1,603,543",
+            "lat": 33.583333,
+            "lng" : 130.4,
+            "slug" : "fukuoka",
+            "video" : "",
+            "artist" : "",
+            "title" : ""
+          },
+          {
+            "name" : "神戸市",
+            "englishName" : "Kobe",
+            "population" : "1,522,188",
+            "lat": 34.69, 
+            "lng" : 135.195556,
+            "slug" : "kobe",
+            "video" : "",
+            "artist" : "",
+            "title" : ""
+          },
+          {
+            "name" : "京都市",
+            "englishName" : "Kyoto",
+            "population" : "1,464,890",
+            "lat": 35.011667,
+            "lng" : 135.768333,
+            "slug" : "kyoto",
+            "video" : "",
+            "artist" : "",
+            "title" : ""
+          }
+      ]
+    },
+    {
+      "name" : "Nederstad",
+      "slug" : "nederstad",
+      "country" : "The Netherlands",
+      "flag" : "nl.png",
+      "year" : "2021",
+      "type" : "megacity",
+      "completed" : false,
+      "cities" : [
+        {
+          "name" : "Amsterdam",
+          "slug" : "amsterdam",
+          "lat" : 52.366667,
+          "lng" : 4.9,
+          "population" : "872,680",
+          "video" : "https://www.youtube.com/watch?v=fxz04H2xS3c",
+          "artist" : "Osdorp Posse",
+          "title" : "Origineel Amsterdams"
+        },
+        {
+          "name" : "Rotterdam",
+          "slug" : "rotterdam",
+          "lat" : 51.916667,
+          "lng" : 4.5,
+          "population" : "651,157",
+          "video" : "https://www.youtube.com/watch?v=GwN72GwYUj4",
+          "artist" : "U-Niq",
+          "title" : "Rotterdam"
+        },
+        {
+          "name" : "Den Haag",
+          "englishName" : "The Hague",
+          "slug" : "den-haag",
+          "lat" : 52.08,
+          "lng" : 4.31,
+          "population" : "545,838",
+          "video" : "https://www.youtube.com/watch?v=5uwIeka_11c",
+          "artist" : "Kern Koppen met De Règâhs en Esku",
+          "title" : "Ja, dat is Den Haag"
+        },
+        {
+          "name" : "Utrecht",
+          "slug" : "utrecht",
+          "lat" : 52.083333,
+          "lng" : 5.116667,
+          "population" : "358,454",
+          "video" : "https://www.youtube.com/watch?v=izz5DBcAfk0",
+          "artist" : "MOHIEM X QUENSLEY",
+          "title" : "UTRECHT"
+        },
+        {
+          "name" : "Eindhoven",
+          "slug" : "eindhoven",
+          "lat" : 51.433333,
+          "lng" : 5.483333,
+          "population" : "234,235",
+          "video" : "https://www.youtube.com/watch?v=mnkURqRhhfs",
+          "artist" : "D-Boy feat. Lirical & Antiano G",
+          "title" : "Eindhoven"
+        },
+        {
+          "name" : "Groningen",
+          "slug" : "groningen",
+          "lat" : 53.217432829158795,
+          "lng" : 6.567712576423899,
+          "population" : "233,218",
+          "video" : "https://www.youtube.com/watch?v=5Bn4Is_CMrc",
+          "artist" : "Chris Cave ft. Annelyse",
+          "title" : "Niets Boven Groningen"
+        },
+        {
+          "name" : "Tilburg",
+          "slug" : "tilburg",
+          "lat" : 51.56027677736272,
+          "lng" : 5.087198861409834,
+          "population" : "217,259",
+          "video" : "https://www.youtube.com/watch?v=OZMUP4r1MhQ",
+          "artist" : "tilly4ce ft nally",
+          "title" : "TILBURG"
+        },
+        {
+          "name" : "Almere",
+          "slug" : "almere",
+          "lat" : 52.366667,
+          "lng" : 5.216667,
+          "population" : "207,904",
+          "video" : "https://www.youtube.com/watch?v=aJC0aCtkjL8",
+          "artist" : "Layzie",
+          "title" : "Hooligan (Ultras Almere Anthem)"
+        },
+        {
+          "name" : "Breda",
+          "slug" : "breda",
+          "lat" : 51.588889,
+          "lng" : 4.775833,
+          "population" : "183,873",
+          "video" : "https://www.youtube.com/watch?v=GI9n_1fiHFI",
+          "artist" : "Penoze ft. BLS",
+          "title" : "Breda Anthem"
+        },
+        {
+          "name" : "Nijmegen",
+          "slug" : "nijmegen",
+          "lat" : 51.8475,
+          "lng" : 5.8625,
+          "population" : "176,731",
+          "video" : "https://www.youtube.com/watch?v=3_-soY6FOTk",
+          "artist" : "NIGGA ICE",
+          "title" : "Welkom"
+        }
+      ]
+    },
+    {
+      "name" : "OZ City",
+      "slug" : "oz-city",
+      "country" : "Australia",
+      "flag" : "au.png",
+      "year" : "2021",
+      "type" : "megacity",
+      "completed" : false,
+      "cities" : [
+        {
+          "name" : "Sydney",
+          "slug" : "sydney",
+          "lat" : -33.865,
+          "lng" : 151.209444,
+          "population" : "5,367,206",
+          "video" : "https://www.youtube.com/watch?v=pGfdYINMF-k",
+          "artist" : "BROTHERS",
+          "title" : "OUR CITY" 
+        },
+        {
+          "name" : "Melbourne",
+          "slug" : "melbourne",
+          "lat" : -37.813611,
+          "lng" : 144.963056,
+          "population" : "5,159,211",
+          "video" : "https://www.youtube.com/watch?v=Grb73JOiqYM",
+          "artist" : "MLBRN",
+          "title" : "The Anthem" 
+        },
+        {
+          "name" : "Brisbane",
+          "slug" : "brisbane",
+          "lat" : -27.467778,
+          "lng" : 153.028056,
+          "population" : "2,560,700",
+          "video" : "https://www.youtube.com/watch?v=G1dH4fp74Ro",
+          "artist" : "ALERTS x GREELEY",
+          "title" : "RHYME LIFE" 
+        },
+        {
+          "name" : "Perth",
+          "slug" : "perth",
+          "lat" : -31.952222,
+          "lng" : 115.858889,
+          "population" : "2,125,114",
+          "video" : "https://www.youtube.com/watch?v=K4OywzfR1V8",
+          "artist" : "Dekstah/D-Vine/Bkame/Greesy/Bitter Belief",
+          "title" : "Perth City Cypher 2019" 
+        },
+        {
+          "name" : "Adelaide",
+          "slug" : "adelaide",
+          "lat" : -34.928889,
+          "lng" : 138.601111,
+          "population" : "1,376,601",
+          "video" : "https://www.youtube.com/watch?v=dTC-NiJbpdk",
+          "artist" : "Damo",
+          "title" : "ADL AUS" 
+        },
+        {
+          "name" : "Gold Coast",
+          "slug" : "gold-coast",
+          "lat" : -28.016667,
+          "lng" : 153.4,
+          "population" : "679,127",
+          "video" : "https://www.youtube.com/watch?v=dH0QeT199Pk",
+          "artist" : "NATE GOOD",
+          "title" : "GOLD COAST" 
+        },
+        {
+          "name" : "Canberra",
+          "slug" : "canberra",
+          "lat" : -35.293056,
+          "lng" : 149.126944,
+          "population" : "431,380",
+          "video" : "https://www.youtube.com/watch?v=SSUhfEGjQz4",
+          "artist" : "Dimitri Livas",
+          "title" : "Welcome to Canberra" 
+        },
+        {
+          "name" : "Newcastle",
+          "slug" : "newcastle",
+          "lat" : -32.916667,
+          "lng" : 151.75,
+          "population" : "322,278",
+          "video" : "https://www.youtube.com/watch?v=XEglk8a1vpA",
+          "artist" : "Rob Bukey",
+          "title" : "Newcastle, This Place is Pretty Good" 
+        }
+      ]
+    },
+    {
+      "name" : "Россия город",
+      "englishName" : "Rossiya Gorod",
+      "slug" : "rossiya-gorod",
+      "country" : "russia",
+      "flag" : "ru.png",
+      "year" : "2021",
+      "type:" : "megacity",
+      "completed" : false,
+      "cities" : [
+        {
+          "name" : "Москва",
+          "englishName" : "Moscow",
+          "slug" : "moscow",
+          "lat" : 55.755833,
+          "lng" : 37.617222,
+          "population" : "12,506,468",
+          "video" : "",
+          "artist" : "",
+          "title" : "" 
+        },
+        {
+          "name" : "Санкт-Петербург",
+          "englishName" : "Saint Petersburg",
+          "slug" : "saint-petersburg",
+          "lat" : 59.9375,
+          "lng" : 30.308611,
+          "population" : "5,351,935",
+          "video" : "",
+          "artist" : "",
+          "title" : "" 
+        },
+        {
+          "name" : "Новосибирск",
+          "englishName" : "Novosibirsk",
+          "slug" : "novosibirsk",
+          "lat" : 55.05,
+          "lng" : 82.95,
+          "population" : "1,612,833",
+          "video" : "",
+          "artist" : "",
+          "title" : "" 
+        },
+        {
+          "name" : "Екатеринбург",
+          "englishName" : "Yekaterinburg",
+          "slug" : "yekaterinburg",
+          "lat" : 56.835556,
+          "lng" : 60.612778,
+          "population" : "1,495,066",
+          "video" : "",
+          "artist" : "",
+          "title" : "" 
+        },
+        {
+          "name" : "Казань",
+          "englishName" : "Kazan",
+          "slug" : "kazan",
+          "lat" : 55.796389,
+          "lng" : 49.108889,
+          "population" : "1,243,500",
+          "video" : "",
+          "artist" : "",
+          "title" : "" 
+        },
+        {
+          "name" : "Нижний Новгород",
+          "englishName" : "Nizhny Novgorod",
+          "slug" : "nizhny-novgorod",
+          "lat" : 56.326944,
+          "lng" : 44.0075,
+          "population" : "1,259,013",
+          "video" : "",
+          "artist" : "",
+          "title" : "" 
+        },
+        {
+          "name" : "Челябинск",
+          "englishName" : "Chelyabinsk",
+          "slug" : "chelyabinsk",
+          "lat" : 55.154722,
+          "lng" : 61.375833,
+          "population" : "1,202,371",
+          "video" : "",
+          "artist" : "",
+          "title" : "" 
+        },
+        {
+          "name" : "Самара",
+          "englishName" : "Samara",
+          "slug" : "samara",
+          "lat" : 53.202778,
+          "lng" : 50.140833,
+          "population" : "1,163,399",
+          "video" : "",
+          "artist" : "",
+          "title" : "" 
+        },
+        {
+          "name" : "Омск",
+          "englishName" : "Omsk",
+          "slug" : "omsk",
+          "lat" : 54.983333,
+          "lng" : 73.366667,
+          "population" : "1,172,070",
+          "video" : "",
+          "artist" : "",
+          "title" : "" 
+        }
+      ]
+    },
+    {
+      "name" : "Ville de France",
+      "slug" : "ville-de-france",
+      "country" : "france",
+      "flag" : "fr.png",
+      "year" : "2021",
+      "type" : "megacity",
+      "completed" : false,
+      "cities" : [
+        {
+          "name" : "Paris",
+          "slug" : "paris",
+          "population" : "2,175,601",
+          "lat" : 48.856613,
+          "lng" : 2.352222,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Marseille",
+          "slug" : "marseille",
+          "population" : "1,590,867",
+          "lat" : 43.2964,
+          "lng" : 5.37,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Lyon",
+          "slug" : "lyon",
+          "population" : "1,659,001",
+          "lat" : 45.76,
+          "lng" : 4.84,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Toulouse",
+          "slug" : "toulouse",
+          "population" : "968,638",
+          "lat" : 43.6045,
+          "lng" : 1.444,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Nice",
+          "slug" : "nice",
+          "population" : "1,006,402",
+          "lat" : 43.7034,
+          "lng" : 7.2663,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Nantes",
+          "slug" : "nantes",
+          "population" : "650,081",
+          "lat" : 47.2181,
+          "lng" : "-1.5528",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Strasbourg",
+          "slug" : "strasbourg",
+          "population" : "467,438",
+          "lat" : 48.583333,
+          "lng" : 7.745833,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Montpellier",
+          "slug" : "montpellier",
+          "population" : "472,217",
+          "lat" : 43.6119,
+          "lng" : 3.8772,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Bordeaux",
+          "slug" : "bordeaux",
+          "population" : "927,445",
+          "lat" : 44.84,
+          "lng" : "-0.58",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Lille",
+          "slug" : "lille",
+          "population" : "1,191,117",
+          "lat" : 50.6278,
+          "lng" : 3.0583,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        }
+      ]
+    },
+    {
+      "name" : "United City",
+      "slug" : "united-city",
+      "country" : "United Kingdom",
+      "flag" : "gb.png",
+      "year" : "2021",
+      "type" : "megacity",
+      "completed" : false,
+      "cities" : [
+        {
+          "name" : "London",
+          "slug" : "london",
+          "population" : "8,961,989",
+          "lat" : 51.507222,
+          "lng" : "-0.1275",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Birmingham",
+          "slug" : "birmingham",
+          "population" : "2,897,303",
+          "lat" : 52.48,
+          "lng" : "-1.9025",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Manchester",
+          "slug" : "manchester",
+          "population" : "2,705,000",
+          "lat" : 53.479444,
+          "lng" : "-2.245278",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Glesga",
+          "englishName" : "Glasgow",
+          "slug" : "glasgow",
+          "population" : "1,861,315",
+          "lat" : 55.860916,
+          "lng" : "-4.251433",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Dùn Èideann",
+          "englishName" : "Edinburgh",
+          "slug" : "edinburgh",
+          "population" : "901,455",
+          "lat" : 55.953,
+          "lng" : "-3.189",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Béal Feirste",
+          "englishName" : "Belfast",
+          "slug" : "belfast",
+          "population" : "671,559",
+          "lat" : 54.596389,
+          "lng" : "-5.93",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Caerdydd",
+          "englishName" : "Cardiff",
+          "slug" : "cardiff",
+          "population" : "1,097,000",
+          "lat" : 51.483333,
+          "lng" : "-3.183333",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Liverpool",
+          "slug" : "liverpool",
+          "population" : "864,122",
+          "lat" : 53.4075,
+          "lng" : "-2.991944",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Leeds",
+          "slug" : "leeds",
+          "population" : "793,139",
+          "lat" : 53.799722,
+          "lng" : "-1.549167",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Newcastle",
+          "slug" : "newcastle",
+          "population" : "879,996",
+          "lat" : 54.971208,
+          "lng" : "-1.606491",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Southampton",
+          "slug" : "southampton",
+          "population" : "855,569",
+          "lat" : 50.9,
+          "lng" : "-1.4",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        }
+      ]
+    },
+    {
+      "name": "South Africa City",
+      "slug" : "south-africa-city",
+      "country" : "South Africa",
+      "flag" : "za.png",
+      "year" : "2021",
+      "type" : "megacity",
+      "completed" : false,
+      "cities" : [
+        {
+          "name" : "Johannesburg",
+          "slug" : "johannesburg",
+          "population" : "9,167,045",
+          "lat" : -26.204444,
+          "lng" : 28.045556,
+          "video" : "https://www.youtube.com/watch?v=V9gf2v3F9Dk",
+          "artist" : "Mampintsha",
+          "title" : "Joburg"
+        },
+        {
+          "name" : "Cape Town",
+          "slug" : "cape-town",
+          "population" : "4,005,016",
+          "lat" : -33.925278,
+          "lng" : 18.423889,
+          "video" : "https://www.youtube.com/watch?v=5moqYxp-3VA",
+          "artist" : "YoungstaCPT",
+          "title" : "The Cape Of Good Hope"
+        },
+        {
+          "name" : "Durban",
+          "slug" : "durban",
+          "population" : "3,661,911",
+          "lat" : -29.883333,
+          "lng" : 31.02,
+          "video" : "https://www.youtube.com/watch?v=NaD8WSCUVaU&",
+          "artist" : "Durban Ous",
+          "title" : "We Going Crazy"
+        },
+        {
+          "name" : "Pretoria",
+          "slug" : "pretoria",
+          "population" : "2,437,000",
+          "lat" : -25.746111,
+          "lng" : 28.188056,
+          "video" : "https://www.youtube.com/watch?v=R8ZgFiP2cgk",
+          "artist" : "Dain Raptal",
+          "title" : "Pretoria"
+        },
+        {
+          "name" : "Soweto",
+          "slug" : "soweto",
+          "population" : "1,271,628",
+          "lat" : -26.266111,
+          "lng" : 27.865833,
+          "video" : "https://www.youtube.com/watch?v=K5XqXbNgTcc",
+          "artist" : "Kay-E ft Various Artists",
+          "title" : "STRAIGHT OUTTA SOWETO"
+        },
+        {
+          "name" : "Port Elizabeth",
+          "slug" : "port-elizabeth",
+          "population" : "967,677",
+          "lat" : -33.958056,
+          "lng" : 25.6,
+          "video" : "https://www.youtube.com/watch?v=9TMCH3qBERA",
+          "artist" : "Hoodfam",
+          "title" : "Hoodlife"
+        },
+        {
+          "name" : "Pietermaritzburg",
+          "slug" : "pietermaritzburg",
+          "population" : "618,536",
+          "lat" : -29.616667,
+          "lng" : 30.383333,
+          "video" : "https://www.youtube.com/watch?v=KqETnEKZ2QI",
+          "artist" : "RIGGZ featuring CASE PABLO, K HOTIM & CHUCKIE",
+          "title" : "THE WAY WE CHOON"
+        },
+        {
+          "name" : "Bloemfontein",
+          "slug" : "bloemfontein",
+          "population" : "556,000",
+          "lat" : -29.116667,
+          "lng" : 26.216667,
+          "video" : "https://www.youtube.com/watch?v=2EWsX5tQ-ZI",
+          "artist" : "FREE STATE OF HIPHOP ft TAYKOVA ; POISON MIND & MAD MUZICIAN",
+          "title" : "SKYTHIAN"
+        },
+        {
+          "name" : "Thembisa",
+          "slug" : "thembisa",
+          "population" : "463,109",
+          "lat" : -26.0055,
+          "lng" : 28.2102,
+          "video" : "https://www.youtube.com/watch?v=OZR3vLQgXGI",
+          "artist" : "JULS",
+          "title" : "TEMBISA"
+        }
+      ]
+    },
+    {
+      "name" : "شهر ایران",
+      "englishName" : "Shhr Aaran",
+      "slug" : "shhr-aaran",
+      "flag" : "ir.png",
+      "year" : "2021",
+      "country" : "Iran",
+      "type" : "megacity",
+      "completed" : false,
+      "cities" : [
+        {
+          "name" : "تهران",
+          "englishName" : "Tehran",
+          "slug" : "tehran",
+          "population" : "8,693,706",
+          "lat" : 35.689167,
+          "lng" : 51.388889,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "مشهد",
+          "englishName" : "Mashhad",
+          "slug" : "mashhad",
+          "population" : "3,372,090",
+          "lat" : 36.3,
+          "lng" : 59.6,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "اصفهان",
+          "englishName" : "Isfahan",
+          "slug" : "isfahan",
+          "population" : "1,961,260",
+          "lat" : 32.644722, 
+          "lng" : 51.6675,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "کرج",
+          "englishName" : "Karaj",
+          "slug" : "karaj",
+          "population" : "1,592,492",
+          "lat" : 35.835556, 
+          "lng" : 51.010278,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "شیراز",
+          "englishName" : "Shiraz",
+          "slug" : "shiraz",
+          "population" : "1,565,572",
+          "lat" : 29.61, 
+          "lng" : 52.5425,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "تبریز",
+          "englishName" : "Tabriz",
+          "slug" : "tabriz",
+          "population" : "1,558,693",
+          "lat" : 38.066667,
+          "lng" : 46.3,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "قم",
+          "englishName" : "Qom",
+          "slug" : "qom",
+          "population" : "1,200,158",
+          "lat" : 34.64,
+          "lng" : 50.876389,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "اهواز",
+          "englishName" : "Ahvaz",
+          "slug" : "ahvaz",
+          "population" : "1,350,000",
+          "lat" : 31.320278,
+          "lng" : 48.669167,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "کرمانشاه",
+          "englishName" : "Kermanshah",
+          "slug" : "kermanshah",
+          "population" : "952,285",
+          "lat" : 34.314167,
+          "lng" : 47.065,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        }
+      ]
+    },
+    {
+      "name" : "Città Italiana",
+      "slug" : "citta-italiana",
+      "country" : "Italy",
+      "flag" : "it.png",
+      "year" : "2021",
+      "type" : "megacity",
+      "completed" : false,
+      "cities" : [
+        {
+          "name" : "Roma",
+          "englishName" : "Rome",
+          "slug" : "rome",
+          "population" : "2,648,843",
+          "lat" : 41.9028,
+          "lng" : 12.4964,
+          "video" : "https://www.youtube.com/watch?v=po4oz4DNzaY",
+          "artist" : "COLLE DER FOMENTO",
+          "title" : "Il cielo su Roma"
+        },
+        {
+          "name" : "Milano",
+          "englishName" : "Milan",
+          "slug" : "milan",
+          "population" : "1,305,591",
+          "lat" : 45.4642,
+          "lng" : 9.1900,
+          "video" : "https://www.youtube.com/watch?v=6BW3beyglWg",
+          "artist" : "Laioung (Prod. Laioung) ft. Isi Noice",
+          "title" : "Milano City Gang"
+        },
+        {
+          "name" : "Napoli",
+          "englishName" : "Naples",
+          "slug" : "napoli",
+          "population" : "1,046,987",
+          "lat" : 40.8518,
+          "lng" : 14.2681,
+          "video" : "https://www.youtube.com/watch?v=MGu9zst_AzE",
+          "artist" : "Moderup (prod. Shada San)",
+          "title" : "GTA NAPL"
+        },
+        {
+          "name" : "Torino",
+          "englishName" : "Torin",
+          "slug" : "torino",
+          "population" : "921,485",
+          "lat" : 45.0703,
+          "lng" : 7.6869,
+          "video" : "https://www.youtube.com/watch?v=5l5cnNIBK5k",
+          "artist" : "CHA CHA (Prod. BR1)",
+          "title" : "Torino"
+        },
+        {
+          "name" : "Palermo",
+          "slug" : "palermo",
+          "population" : "689,349",
+          "lat" : 38.1157,
+          "lng" : 13.3615,
+          "video" : "https://www.youtube.com/watch?v=n7CoW5x_mo4",
+          "artist" : "Sciacato",
+          "title" : "Palermo"
+        },
+        {
+          "name" : "Genova",
+          "slug" : "genova",
+          "population" : "655,704",
+          "lat" : 44.4056,
+          "lng" : 8.9463,
+          "video" : "https://www.youtube.com/watch?v=BjDqGPU2M9A",
+          "artist" : "Gigaflow feat. Marcialis",
+          "title" : "La Mia Genova"
+        },
+        {
+          "name" : "Bologna",
+          "slug" : "bologna",
+          "population" : "385,813",
+          "lat" : 44.4949,
+          "lng" : 11.3426,
+          "video" : "https://www.youtube.com/watch?v=_-F_2uXrV1E",
+          "artist" : "Dj Shawa",
+          "title" : "This is Bologna"
+        },
+        {
+          "name" : "Firenze",
+          "englishName" : "Florence",
+          "slug" : "firenze",
+          "population" : "381,762",
+          "lat" : 43.7696,
+          "lng" : 11.2558,
+          "video" : "https://www.youtube.com/watch?v=dXcZDg42qe4",
+          "artist" : "LA PRIMIERA",
+          "title" : "Estate a Firenze"
+        },
+        {
+          "name" : "Catania",
+          "slug" : "catania",
+          "population" : "341,685",
+          "lat" : 37.5079,
+          "lng" : 15.0830,
+          "video" : "https://www.youtube.com/watch?v=uEbmHtyWbVY",
+          "artist" : "Don Cash",
+          "title" : "Catania"
+        }
+      ]
+    },
+    {
+          "name" : "Skate City",
+          "slug" : "skate-city",
+          "country" : "Skatica",
+          "flag" : "thrasher.png",
+          "year" : "2020",
+          "type" : "skateboarding",
+          "completed" : true,
+          "spots" : [
+            {
+              "name" : "3rd and Army",
+              "slug" : "3rd-and-army",
+              "city" : "San Francisco",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=NMSAQqpiA3A",
+              "skaters" : "Karl Watson",
+              "title" : "411 - Spot Check"
+            },
+            {
+              "name" : "605 Ditch",
+              "slug" : "605-ditch",
+              "city" : "Los Angeles",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=1qWlPt9_ZNQ",
+              "skaters" : "",
+              "title" : "Skating a ditch in LA with AVE, Stefan Janoski & friends"
+            },
+            {
+              "name" : "Alex Road Skatepark",
+              "slug" : "alex-road-skatepark",
+              "city" : "Oceanside",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=hWzKs3E4qfw",
+              "skaters" : "Alex Sorgente",
+              "title" : "Alex Sorgente at Alex Road Skatepark- Killing it."
+            },
+            {
+              "name" : "Alga Norte Skatepark",
+              "slug" : "alga-norte-skatepark",
+              "city" : "Carlsbad",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=XatdnDqm7cY",
+              "skaters" : "",
+              "title" : "Carlsbad Alga Norte Park Hard Luck - TransWorld SKATEboarding"
+            },
+            {
+              "name" : "Armory",
+              "slug" : "armory",
+              "city" : "San Francisco",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=sksDD9AnWMc",
+              "skaters" : "Dennis Busenitz",
+              "title" : "Best of Busenitz : 3 up & 3rd"
+            },
+            {
+              "name" : "Black Hubba",
+              "slug" : "black-hubba",
+              "city" : "New York City",
+              "state" : "NY",
+              "video" : "https://www.youtube.com/watch?v=zsNlOcIqPLU",
+              "skaters" : "",
+              "title" : "JENKEM - Evolution of... NYC's Black Hubba"
+            },
+            {
+              "name" : "Black Rock",
+              "slug" : "bank-of-america",
+              "city" : "San Francisco",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=PLjX5T8AFao",
+              "skaters" : "",
+              "title" : "Chico Brenes' 7x7 Part",
+              "start" : 285
+            },
+            {
+              "name" : "Brooklyn Banks",
+              "slug" : "brooklyn-banks",
+              "city" : "New York City",
+              "state" : "NY",
+              "video" : "https://www.youtube.com/watch?v=_GCNA4-lF1I",
+              "skaters" : "",
+              "title" : "Brooklyn Banks, A Retrospective Video, by R.B. Umali"
+            },
+            {
+              "name" : "Burgess Skatepark",
+              "slug" : "burgess-skatepark",
+              "city" : "Menlo Park",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=7an7kAv4R4Y",
+              "skaters" : "",
+              "title" : "enjoi skateboards - Menlo Park"
+            },
+            {
+              "name" : "Burnside",
+              "slug" : "burnside",
+              "city" : "Portland",
+              "state" : "OR",
+              "video" : "https://www.youtube.com/watch?v=rfXROiJUwzE",
+              "skaters" : "",
+              "title" : "Burnside 4 Life: 30 Years Under The Bridge Video"
+            },
+            {
+              "name" : "Cathedral",
+              "slug" : "cathedral",
+              "city" : "San Francisco",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=0auU97ELR2A",
+              "skaters" : "Daan Van Der Linden",
+              "title" : "Daan Van Der Linden : Arson Dept",
+              "start" : 111
+            },
+            {
+              "name" : "Chandler Skatepark",
+              "slug" : "chandler-skatepark",
+              "city" : "Chandler",
+              "state" : "AZ",
+              "video" : "https://www.youtube.com/watch?v=y-oyt6PMq74",
+              "skaters" : "",
+              "title" : "411VM 45 Spot Check- Chandler Skatepark"
+            },
+            {
+              "name" : "China Banks",
+              "slug" : "china-banks",
+              "city" : "San Francisco",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=3sb-vwbw5H0",
+              "skaters" : "Jack Fardell",
+              "title" : "Behind The Cover: Jack Fardell - TransWorld SKATEboarding"
+            },
+            {
+              "name" : "City of Coronado Skatepark",
+              "slug" : "city-of-coronado-skatepark",
+              "city" : "Coronado",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=srJvHEQt-bg",
+              "skaters" : "",
+              "title" : "Jimmy Carlin, Windsor James, David Gravette & More Shred Coronado"
+            },
+            {
+              "name" : "Clipper",
+              "slug" : "clipper",
+              "city" : "San Francisco",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=rHoGc3lrLU0",
+              "skaters" : "",
+              "title" : "Bust Or Bail 2: The Ripper At Clipper"
+            },
+            {
+              "name" : "Dave Armstrong Extreme",
+              "slug" : "dave-armstrong-extreme-park",
+              "city" : "Luisville",
+              "state" : "KY",
+              "video" : "https://www.youtube.com/watch?v=3LFzYN6BkYA",
+              "skaters" : "",
+              "title" : "In Transition - Sam Beckett"
+            },
+            {
+              "name" : "Derby",
+              "slug" : "derby",
+              "city" : "Santa Cruz",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=yfQscUEAUHQ",
+              "skaters" : "",
+              "title" : "Streets on Fire",
+              "start" : 120
+            },
+            {
+              "name" : "Desert Breeze Skatepark",
+              "slug" : "desert-breeze-skatepark",
+              "city" : "Las Vegas",
+              "state" : "NV",
+              "video" : "https://www.youtube.com/watch?v=VOTurAm_hUw",
+              "skaters" : "",
+              "title" : "DESERT BREEZE SKATE PARK"
+            },
+            {
+              "name" : "Desert West Skatepark",
+              "slug" : "desert-west-skatepark",
+              "city" : "Phoenix",
+              "state" : "AZ",
+              "video" : "https://www.youtube.com/watch?v=-VchA5WlWVY",
+              "skaters" : "",
+              "title" : "LOCALS ONLY 2016 Presented by Converse CONS"
+            },
+            {
+              "name" : "Dreamland",
+              "slug" : "dreamland",
+              "city" : "Vista",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=wlL4NPOrYck",
+              "skaters" : "",
+              "title" : "Classics: Bob Burnquist's 'Dreamland' Part"
+            },
+            {
+              "name" : "El Toro",
+              "slug" : "el-toro",
+              "city" : "Lake Forest",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=Ofhz8VgQ6Ho",
+              "skaters" : "",
+              "title" : "My War: Jamie Foy"
+            },
+            {
+              "name" : "Elliot Sloan Ramp",
+              "slug" : "elliot-sloan-ramp",
+              "city" : "Vista",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=tvzMjE28E1g",
+              "skaters" : "",
+              "title" : "BIRDHOUSE | SKATE AND CREATE 2020 | ELLIOT SLOAN"
+            },
+            {
+              "name" : "EMB",
+              "slug" : "emb",
+              "city" : "San Francisco",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=QOxBFS60rcM",
+              "skaters" : "",
+              "title" : "James Kelch : The REAL Video '93"
+            },
+            {
+              "name" : "Encinitas YMCA Skatepark",
+              "slug" : "encinitas-ymca-skatepark",
+              "city" : "Encinitas",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=OBZFNfs7zX0",
+              "skaters" : "",
+              "title" : "Paul Luc 540 at YMCA Skate Park Vert Ramp"
+            },
+            {
+              "name" : "Etnies Skatepark",
+              "slug" : "etnies-skatepark",
+              "city" : "Lake Forrest",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=qMSXP9YAigA",
+              "skaters" : "",
+              "title" : "etnies Skatepark's 15-year Anniversary"
+            },
+            {
+              "name" : "Far Rockaway Skatepark",
+              "slug" : "far-rockaway-skatepark",
+              "city" : "New York City",
+              "state" : "NY",
+              "video" : "https://www.youtube.com/watch?v=ETbMZ-N-P3A",
+              "skaters" : "",
+              "title" : "Spohn Ranch talks about the new skatepark in Farrockaway on Beach 92nd street"
+            },
+            {
+              "name" : "Foothills Skatepark",
+              "slug" : "foothills-skatepark",
+              "city" : "Glendale",
+              "state" : "AZ",
+              "video" : "https://www.youtube.com/watch?v=9DYMP34OYLk",
+              "skaters" : "",
+              "title" : "2014 Union Hills Classic Presented by DC"
+            },
+            {
+              "name" : "Fort Miley",
+              "slug" : "fort-miley",
+              "city" : "San Francisco",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=--c_GXVcZ_0",
+              "skaters" : "",
+              "title" : "Classics - Fort Miley - The Hip Is Hard"
+            },
+            {
+              "name" : "Foster City Skatepark",
+              "slug" : "foster-city-skatepark",
+              "city" : "Foster City",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=sYkghUIhuzI",
+              "skaters" : "",
+              "title" : "Too Many Montages: Foster City"
+            },
+            {
+              "name" : "Freemont Skatepark",
+              "slug" : "freemont-skatepark",
+              "city" : "Freemont",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=yZJc12I-YX4&t=37s",
+              "skaters" : "",
+              "title" : "VINNIE BANH DEMOLISHES FREMONT SKATEPARK"
+            },
+            {
+              "name" : "Freestone Skatepark",
+              "slug" : "freestone-skatepark",
+              "city" : "Gilbert",
+              "state" : "AZ",
+              "video" : "https://www.youtube.com/watch?v=SBVSXg3IabE",
+              "skaters" : "",
+              "title" : "Freestone Skatepark Montage"
+            },
+            {
+              "name" : "Garfield High School",
+              "slug" : "garfield-high-school",
+              "city" : "Seattle",
+              "state" : "WA",
+              "video" : "https://www.youtube.com/watch?v=BjN5W7364ac",
+              "skaters" : "",
+              "title" : "SKATE Seattle with Jordan Sanchez"
+            },
+            {
+              "name" : "Greer Skatepark",
+              "slug" : "greer-skatepark",
+              "city" : "Palo Alto",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=6wCpXu-u4Qc&t=104s",
+              "skaters" : "",
+              "title" : "Tim Brauch & Phil Shao - One Day at Palo Alto Skatepark"
+            },
+            {
+              "name" : "Hollywood High",
+              "slug" : "hollywood-high",
+              "city" : "Los Angeles",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=bGMwxNmNmYQ",
+              "skaters" : "",
+              "title" : "Hollywood High 16 Stair Best Tricks"
+            },
+            {
+              "name" : "Hubba Hideout",
+              "slug" : "hubba-hideout",
+              "city" : "San Francisco",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=sdjX4PA0k0U",
+              "skaters" : "",
+              "title" : "Hubba Hideout ON Video Skateboarding Spring"
+            },
+            {
+              "name" : "Kraus Family Skatepark",
+              "slug" : "kraus-family-skatepark",
+              "city" : "San Diego",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=WDd64JU052w",
+              "skaters" : "",
+              "title" : "The Art of Skatercross with Andy Macdonald"
+            },
+            {
+              "name" : "Lawton Skatepark",
+              "slug" : "lawton-skatepark",
+              "city" : "Fort Wayne",
+              "state" : "IN",
+              "video" : "https://www.youtube.com/watch?v=5MHo2Z-hzCk",
+              "skaters" : "",
+              "title" : "THIS IS LAWTON | FEEDTHELOCALS | Lawton Skatepark 2016"
+            },
+            {
+              "name" : "LES Skatepark",
+              "slug" : "les-skatepark",
+              "city" : "New York City",
+              "state" : "NY",
+              "video" : "https://www.youtube.com/watch?v=jaPXKW6Y8Ew",
+              "skaters" : "",
+              "title" : "UNDER THE BRIDGE | LES Skatepark Short Film"
+            },
+            {
+              "name" : "Livermore Skatepark",
+              "slug" : "livermore-skatepark",
+              "city" : "Livermore",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=rCPxKyTFpjQ",
+              "skaters" : "",
+              "title" : "Livermore Skatepark Montage"
+            },
+            {
+              "name" : "Lockwood",
+              "slug" : "lockwood",
+              "city" : "Los Angeles",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=591OVqQdsyw",
+              "skaters" : "",
+              "title" : "LOS ANGELES PINS - Visual Postcard - Lockwood"
+            },
+            {
+              "name" : "Love Park",
+              "slug" : "love-park",
+              "city" : "Philadelphia",
+              "state" : "PA",
+              "video" : "https://www.youtube.com/watch?v=1JGqyHaUeJs",
+              "skaters" : "",
+              "title" : "Stevie Williams - Love Park"
+            },
+            {
+              "name" : "Lower Bobs",
+              "slug" : "lower-bobs",
+              "city" : "Oakland",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=xHF0zttFLXA",
+              "skaters" : "",
+              "title" : "Revin' Up Bob's for P-Stone"
+            },
+            {
+              "name" : "Maloof Skatepark",
+              "slug" : "maloof-skatepark",
+              "city" : "New York City",
+              "state" : "NY",
+              "video" : "https://www.youtube.com/watch?v=9SlgzxqNVKo",
+              "skaters" : "",
+              "title" : "Maloof Money Cup NYC 2010 Highlights | Skate | VANS"
+            },
+            {
+              "name" : "Mike Fox Skatepark",
+              "slug" : "mike-fox-skatepark",
+              "city" : "Santa Cruz",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=b-cJHirKWyw",
+              "skaters" : "",
+              "title" : "Raven Tershy at Mike Fox Skatepark 2018"
+            },
+            {
+              "name" : "Mission Viejo Skatepark",
+              "slug" : "mission-viejo-skatepark",
+              "city" : "Mission Viejo",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=ptfD4Ahn4OU",
+              "skaters" : "",
+              "title" : "Don't Sleep on Beebe VOL. 2"
+            },
+            {
+              "name" : "Monte Family Skatepark",
+              "slug" : "monte-family-skatepark",
+              "city" : "Capitola",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=4BsjAtav86o",
+              "skaters" : "",
+              "title" : "What's for lunch? Capitola Skatepark with Chris Haslam"
+            },
+            {
+              "name" : "Mount Trashmore",
+              "slug" : "mount-trashmore",
+              "city" : "Virginia Beach",
+              "state" : "VA",
+              "video" : "https://www.youtube.com/watch?v=X37y19znIWU",
+              "skaters" : "",
+              "title" : "Tony Hawk and Ray Underhill at Mt. Trashmore"
+            },
+            {
+              "name" : "Phil Shao Memorial Skatepark",
+              "slug" : "phil-shao-memorial-skatepark",
+              "city" : "Redwood City",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=euhQctZdVgQ",
+              "skaters" : "",
+              "title" : "Classics: Phil Shao 'Dedication'"
+            },
+            {
+              "name" : "Pier 7",
+              "slug" : "pier-7",
+              "city" : "San Francisco",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=yPcwPyCpZ7U",
+              "skaters" : "",
+              "title" : "Pier 7 Spot Check - 411VM - Issue 19"
+            },
+            {
+              "name" : "Pink Motel",
+              "slug" : "pink-motel",
+              "city" : "Los Angeles",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=CwzWBX7diS4",
+              "skaters" : "",
+              "title" : "Pink Motel - Animal Chin"
+            },
+            {
+              "name" : "Poods",
+              "slug" : "poods",
+              "city" : "Encinitas",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=zBi-zDpW6H8",
+              "skaters" : "",
+              "title" : "Skatepark Check with Jordan Hoffart"
+            },
+            {
+              "name" : "Potrero",
+              "slug" : "potrero",
+              "city" : "San Francisco",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=U2DsL-9Fna8",
+              "skaters" : "",
+              "title" : "P-Stone's Xmas Cookie: Good Ol' Potrero"
+            },
+            {
+              "name" : "Pulaski Park",
+              "slug" : "freedom-plaza",
+              "city" : "Washington",
+              "state" : "DC",
+              "video" : "https://www.youtube.com/watch?v=_SRZUmL-gH8",
+              "skaters" : "",
+              "title" : "Plazacation: Pulaski"
+            },
+            {
+              "name" : "Roanoke Skatepark",
+              "slug" : "roanoke-skatepark",
+              "city" : "Roanoke",
+              "state" : "TX",
+              "video" : "https://www.youtube.com/watch?v=n2UCFSRWzls",
+              "skaters" : "",
+              "title" : "Skateboarding - Roanoke Skatepark Montage - Denis McInerny"
+            },
+            {
+              "name" : "Roxborough Skatepark",
+              "slug" : "roxborough-skatepark",
+              "city" : "Littleton",
+              "state" : "CO",
+              "video" : "https://www.youtube.com/watch?v=vOsb_8s_4eg",
+              "skaters" : "",
+              "title" : "Roxborough Team Pain Skate Park Colorado Walk Through"
+            },
+            {
+              "name" : "San Luis Obispo Skatepark",
+              "slug" : "san-luis-obispo-skatepark",
+              "city" : "San Luis Obispo",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=mCAcWwmhPtA",
+              "skaters" : "",
+              "title" : "Grant Taylor and the Volcom Team at SLO Skatepark"
+            },
+            {
+              "name" : "Santa Monica Curbs",
+              "slug" : "santa-monica-curbs",
+              "city" : "Santa Monica",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=bvJPbHGXRyU",
+              "skaters" : "",
+              "title" : "Classics: Natas Kaupas 'Streets of Fire' part",
+              "start" : 153
+            },
+            {
+              "name" : "Sarasota Skatepark",
+              "slug" : "sarasota-skatepark",
+              "city" : "Sarasota",
+              "state" : "FL",
+              "video" : "https://www.youtube.com/watch?v=ZYSmLFNCPUw",
+              "skaters" : "",
+              "title" : "Payne SkatePark Sarasota Florida"
+            },
+            {
+              "name" : "Scotts Valley Skatepark",
+              "slug" : "scotts-valley-skatepark",
+              "city" : "Scotts Valley",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=D7r8okpqQkw",
+              "skaters" : "",
+              "title" : "Scotts Valley Rippers"
+            },
+            {
+              "name" : "Skateopia",
+              "slug" : "skateopia",
+              "city" : "Rutland",
+              "state" : "OH",
+              "video" : "https://www.youtube.com/watch?v=zZFTax_xKxs",
+              "skaters" : "",
+              "title" : "Skatopia Is An Anarchist Skateboarding Utopia"
+            },
+            {
+              "name" : "Spring Skatepark",
+              "slug" : "spring-skatepark",
+              "city" : "Houston",
+              "state" : "TX",
+              "video" : "https://www.youtube.com/watch?v=RH4V4tJ5g5A",
+              "skaters" : "",
+              "title" : "North Houston Skatepark is one of Texas' biggest"
+            },
+            {
+              "name" : "Staples Center",
+              "slug" : "staples-center",
+              "city" : "Los Angeles",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=dqK7cjCtXhk",
+              "skaters" : "",
+              "title" : "Convention Center, Los Angeles"
+            },
+            {
+              "name" : "Stirling Skatepark",
+              "slug" : "stirling-skatepark",
+              "city" : "Dunedin",
+              "state" : "FL",
+              "video" : "https://www.youtube.com/watch?v=ihU-RTwhek8",
+              "skaters" : "",
+              "title" : "Dunedin has a cool Skate Park!"
+            },
+            {
+              "name" : "Stoner Park",
+              "slug" : "stoner-park",
+              "city" : "Los Angeles",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=-L1fzMCD43o",
+              "skaters" : "",
+              "title" : "WEEDDAYS: STONER PARK"
+            },
+            {
+              "name" : "Sunnyvalle Skatepark",
+              "slug" : "sunnyvalle-skatepark",
+              "city" : "Sunnyvalle",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=cHLmlhKduZw",
+              "skaters" : "",
+              "title" : "Krooked at Sunnyvale Skate Park w/ Gonz Drehobl Bobby Van"
+            },
+            {
+              "name" : "The Dish",
+              "slug" : "the-dish",
+              "city" : "San Francisco",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=6DuAKfCrAbk",
+              "skaters" : "",
+              "title" : "Classics: SF's Dish Contest '85"
+            },
+            {
+              "name" : "Treasure Island",
+              "slug" : "treasure-island",
+              "city" : "San Francisco",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=T6YuGG-Tp1E",
+              "skaters" : "",
+              "title" : "Treasure Island DIY Turns Three"
+            },
+            {
+              "name" : "Ulysses Skatepark",
+              "slug" : "ulysses-skatepark",
+              "city" : "Golden",
+              "state" : "CO",
+              "video" : "https://www.youtube.com/watch?v=mGpXYMgypjg",
+              "skaters" : "",
+              "title" : "RWUS 12 | Golden Skatepark",
+              "start" : 26
+            },
+            {
+              "name" : "Unisphere",
+              "slug" : "unisphere",
+              "city" : "New York City",
+              "state" : "NY",
+              "video" : "https://www.youtube.com/watch?v=Q6Hu27a4aO4",
+              "skaters" : "",
+              "title" : "Introducing /// Liberty Cup",
+              "start" : 38
+            },
+            {
+              "name" : "Van Buren Ditch",
+              "slug" : "van-buren-dam",
+              "city" : "El Paso",
+              "state" : "TX",
+              "video" : "https://www.youtube.com/watch?v=KxT8zyl1Mug",
+              "skaters" : "",
+              "title" : "Van Buren Ditch Comp. 2014"
+            },
+            {
+              "name" : "Vans Off the Wall Skatepark",
+              "slug" : "vans-off-the-wall-skatepark",
+              "city" : "Huntington Beach",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=y_pZuZ1CMfU",
+              "skaters" : "",
+              "title" : "Vans Skatepark in Huntington Beach"
+            },
+            {
+              "name" : "Venice Skatepark",
+              "slug" : "venice-skatepark",
+              "city" : "Los Angeles",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=fDNHFNDcXe0",
+              "skaters" : "",
+              "title" : "Weedmaps Venice Beach 'Park & Ride'"
+            },
+            {
+              "name" : "Volcom Skatepark",
+              "slug" : "volcom-skatepark",
+              "city" : "Mammoth Lakes",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=sKctfxXN8u8",
+              "skaters" : "",
+              "title" : "In Transition Greyson Fletcher",
+              "start" : 23
+            },
+            {
+              "name" : "Wallenburg",
+              "slug" : "wallenburg",
+              "city" : "San Francisco",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=Cs47nfBnVBo",
+              "skaters" : "",
+              "title" : "DVS BACK TO THE BERG"
+            },
+            {
+              "name" : "Waller",
+              "slug" : "waller",
+              "city" : "San Francisco",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=pzSk6tmEIZA",
+              "skaters" : "",
+              "title" : "Spot check -- Waller Street"
+            },
+            {
+              "name" : "West LA Courhouse",
+              "slug" : "west-la-courthouse",
+              "city" : "Los Angeles",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=Q_tvNdhi5AM",
+              "skaters" : "",
+              "title" : "Eric Koston and the LA Courthouse Unlocked"
+            },
+            {
+              "name" : "West LA High",
+              "slug" : "west-la-high",
+              "city" : "Los Angeles",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=exWF4Usu1u0",
+              "skaters" : "",
+              "title" : "WEAKDAYS: LA HIGH"
+            },
+            {
+              "name" : "Westlake Skatepark",
+              "slug" : "westlake-park-skatepark",
+              "city" : "Grand Junction",
+              "state" : "CO",
+              "video" : "https://www.youtube.com/watch?v=LK6IAUn1MLQ",
+              "skaters" : "",
+              "title" : "Go Skate Day 2020 | KINGPINS KREW | MUTUAL FRIENDS"
+            },
+            {
+              "name" : "Woodward East",
+              "slug" : "woodward-east",
+              "city" : "Woodward",
+              "state" : "PA",
+              "video" : "https://www.youtube.com/watch?v=kDTs8YyA7kw",
+              "skaters" : "",
+              "title" : "Battle at Woodward East | Sheckler Sessions: S2E5",
+              "start" : 39
+            },
+            {
+              "name" : "Woodward West",
+              "slug" : "woodward-west",
+              "city" : "Tehachapi",
+              "state" : "CA",
+              "video" : "https://www.youtube.com/watch?v=8JgUIKmj-sk",
+              "skaters" : "",
+              "title" : "Woodward West Skateboarding!"
+            }
+          ]
+    }
+]

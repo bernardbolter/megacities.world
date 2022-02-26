@@ -15,6 +15,7 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "framer-motion": "^6.2.8",
     "gatsby": "^4.8.0",
     "gatsby-plugin-google-analytics": "^4.8.0",
     "gatsby-plugin-image": "^2.8.1",
@@ -24,6 +25,7 @@
     "gatsby-plugin-sharp": "^4.8.1",
     "gatsby-plugin-sitemap": "^5.8.0",
     "gatsby-source-filesystem": "^4.8.1",
+    "gatsby-transformer-json": "^4.8.0",
     "gatsby-transformer-sharp": "^4.8.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",

@@ -1,0 +1,60 @@
+{
+    "greetings" : [
+        {
+            "greeting": "Saluton",
+            "language": "Espranto"
+        },
+        {
+            "greeting": "Hallo",
+            "language": "Deutsche"
+        },
+        {
+            "greeting": "What's Good",
+            "language": "American"
+        },
+        {
+            "greeting": "你好 | Nǐ hǎo",
+            "language" : "中文 | Zhōngwén"
+        },
+        {
+            "greeting": "Hola",
+            "language" : "Spanish"
+        },
+        {
+            "greeting": "Bonjour",
+            "language" : "French"
+        },
+        {
+            "greeting": "Привет | Privet",
+            "language" : "русский | Russian"
+        },
+        {
+            "greeting": "Salve",
+            "language" : "Latin"
+        },
+        {
+            "greeting": "สวัสดี | S̄wạs̄dī",
+            "language" : "ไทย | Thai"
+        },
+        {
+            "greeting": "Ciao",
+            "language" : "Italian"
+        },
+        {
+            "greeting": "Kaixo",
+            "language" : "Basque"
+        },
+        {
+            "greeting": "こんにちは | Kon'nichiwa",
+            "language" : "日本語 | Japanese"
+        },
+        {
+            "greeting": "Kepanī",
+            "language" : "Hawaiian"
+        },
+        {
+            "greeting": "Hello",
+            "language" : "English"
+        }
+    ]
+}
