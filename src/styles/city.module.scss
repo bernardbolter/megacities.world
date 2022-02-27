@@ -1,0 +1,296 @@
+@import './vars.scss';
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+    width: 100%;
+
+    @media screen and (min-width: 769px) {
+        flex-direction: row;
+        justify-content: flex-start;
+        width: auto;
+    }
+}
+
+.image {
+    display: block;
+
+    @media screen and (min-width: 769px) {
+        width: auto;
+    }
+
+    @media screen and (max-width: 768px) {
+        width: 90% !important;
+        margin: 0 5%;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+.loader {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 100px;
+        opacity: .4;
+    }
+
+    p {
+        color: white;
+        opacity: .5;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0.05em;
+        margin: 0;
+        padding: 10px 0;
+    }
+}
+
+.infoContainer {
+    width: 90%;
+    margin: 20px 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    @media screen and (min-width: 769px) {
+        width: 300px;
+        margin: 0;
+    }  
+
+    @media screen and (max-width: 768px) {
+        height: auto !important;
+    }
+}
+
+.info {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+
+    @media only screen and (min-width: 769px) {
+        padding: 5px 100px 0 10px;
+    }  
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin: 0 0 7px;
+
+    h1 {
+        margin: 0 0 0 7px;
+        padding: 0;
+        color: $light;
+        font-size: 12px;
+        font-weight: 900;
+        opacity: 0.8;
+
+        @media only screen and (min-width: $medium) {
+            font-size: 14px;
+        } 
+    }
+}
+
+.flag {
+    width: 25px;
+    opacity: 0.6; 
+}
+
+.cities {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    h3 {
+        color: $light;
+        font-size: 12px;
+        font-weight: 600;
+        opacity: .8;
+        margin: 5px 0;
+        padding: 0;
+
+        @media only screen and (min-width: $medium) {
+            font-size: 12px;
+            margin: 7px 0;
+        } 
+    }
+
+    h4 {
+        color: $light;
+        font-size: 11px;
+        font-weight: 400;
+        opacity: .7;
+        margin: 7px 0;
+        padding: 0;
+
+        @media only screen and (min-width: $medium) {
+            font-size: 11px;
+            margin: 7px 0;
+        } 
+    }
+
+    h5 {
+        color: $light;
+        font-size: 10px;
+        font-weight: 400;
+        opacity: .6;
+        position: absolute;
+        margin: -10px 0 0 4px;
+        padding: 0;
+        white-space: nowrap;
+
+        @media only screen and (min-width: $medium) {
+            font-size: 10px;
+            margin: -10px 0 0 4px;
+        } 
+    }
+}
+
+.line {
+    margin: 7px 0 7px 80%;
+    height: 1px;
+    background: $light;
+    opacity: .7;
+    width: 20%;
+}
+
+.population {
+    text-align: right;
+    color: $light;
+    opacity: .8;
+    font-size: 12px;
+    font-weight: 900;
+
+    @media only screen and (min-width: $medium) {
+        font-size: 14px;
+    } 
+}
+
+.enlarge {
+    margin: 20px 0 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    svg {
+        width: 20px;
+        fill: rgba(255,255,255, .7);
+    }
+
+    p {
+        color: rgba(255,255,255,0.5);
+        font-size:12px;
+        margin: 0 0 0 10px;
+        font-weight: 800;
+    }
+}
+
+.warning {
+    margin: 20px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    cursor: pointer;
+
+    svg {
+        width: 20px;
+        fill: rgba(255,255,255,.4);
+    }
+
+    p {
+        color: rgba(255,255,255,.2);
+        font-size: 12px;
+        margin: 0 0 0 10px;
+        font-weight: 800;
+    }
+}
+
+.warningText {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.unfinished {
+    background: rgba(255,255,255,0.3);
+    padding: 10px;
+    margin: 20px 0 0 0;
+    width: 140px;
+
+    p {
+        font-size: 10px;
+        line-height: 12px;
+        color: rgba(0,0,0,.7);
+        font-weight: 300;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.artInfo {
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+
+    @media screen and (min-width: 769px) {
+        width: 90%;
+        margin: 0 7% 0 3%;
+    }
+}
+
+.artSize {
+    font-size: 9px;
+    font-weight: 500;
+    opacity: .4;
+    letter-spacing: 0.05em;
+    padding: 0;
+    margin: 0 0 5px;
+
+    @media only screen and (min-width: $medium) {
+        font-size: 11px;
+    } 
+}
+
+.artLine {
+    width: 50px;
+    height: 1px;
+    background: rgba(255,255,255,0.3);
+    margin: 4px 0;
+    padding: 0;
+
+    @media only screen and (min-width: $medium) {
+        margin: 7px 0;
+    } 
+}
+
+.artYear {
+    font-size: 11px;
+    font-weight: 500;
+    opacity: .8;
+    letter-spacing: 0.05em;
+    padding: 0;
+    margin: 20px 0 0 0;
+
+    @media only screen and (min-width: $medium) {
+        font-size: 12px;
+    } 
+}

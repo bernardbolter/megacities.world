@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react'
-import { Link } from 'gatsby'
+import { Link, navigate } from 'gatsby'
 import { MegaContext } from "../providers/MegaProvider"
 import Globe from 'react-globe.gl'
 
@@ -12,7 +12,7 @@ import * as styles from '../styles/index.module.scss'
 import '../styles/world-label.scss'
 
 const IndexPage = () => {
-  const [mega] = useContext(MegaContext)
+  const [mega, setMega] = useContext(MegaContext)
   const [hoverD, setHoverD] = useState()
 
   const [allMegas, setAllMegas] = useState([])
@@ -25,10 +25,9 @@ const IndexPage = () => {
       var combined = {...megaObject[0], ...countryObject[0]}
       return setAllMegas(prevArray => [...prevArray, combined])
     })
-  }, [mega.megacities, WorldGeo])
+  }, [mega.megacities])
 
   const makeHeader = (name, englishName, flag) => {
-      console.log(mega.url)
       var englishBlock
       if (englishName === null) {
         englishBlock = `<p class="world-english-block-empty"></p>`
@@ -81,7 +80,7 @@ const IndexPage = () => {
   return (
     <main className={styles.container}>
         <Link 
-            to="/artwork"
+            to="/cities"
             className={styles.logo}
         >
             <Logo />
@@ -109,8 +108,9 @@ const IndexPage = () => {
             `}
             onPolygonHover={setHoverD}
             polygonsTransitionDuration={300}
-            onPolygonClick={({ slug: s }) => {
-                console.log(s)
+            onPolygonClick={({ slug }) => {
+                setMega(state => ({ ...state, megaIndexSlug: slug }))
+                navigate("/cities/")
             }}
         />
         {(hoverD !== null) && (hoverD) && (

@@ -47,9 +47,10 @@ const MegaProvider = ({ children }) => {
 
     const [mega, setMega] = useState({
         megacities: [],
-        world: [],
+        shuffledMegacities: [],
         greetings: [],
-        url: 'https://madeinberlin.net/artwork/megacities/'
+        url: 'https://madeinberlin.net/artwork/megacities/',
+        megaIndexSlug: ''
     })
 
     useEffect(() => {
@@ -62,6 +63,23 @@ const MegaProvider = ({ children }) => {
 
         setMega(state => ({ ...state, megacities: shuffle(rawMegacities) }))
     }, [megacitiesData])
+
+    useEffect(() => {
+      var getShuffledCities = mega.megacities;
+      getShuffledCities.forEach(function(v,i) {
+          if (v.slug === 'skate-city') {
+              getShuffledCities.push(getShuffledCities[i])
+              getShuffledCities.splice(i, 1)
+          }
+          if (v.slug === mega.megaIndexSlug) {
+              getShuffledCities.unshift(getShuffledCities[i])
+              getShuffledCities.splice(i + 1, 1)
+          }
+      })
+      setMega(state => ({ ...state, shuffledMegacities: getShuffledCities }));
+
+      return () => getShuffledCities = {}
+    }, [mega.megacities, mega.megaIndexSlug])
 
     return (
         <MegaContext.Provider
