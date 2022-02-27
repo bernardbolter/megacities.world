@@ -2221,6 +2221,239 @@
       ]
     },
     {
+      "name" : "місто Україна",
+      "englishName" : "misto Ukrayina",
+      "slug" : "misto-ukrayina",
+      "country" : "ukraine",
+      "flag" : "ua.png",
+      "year" : "2022",
+      "completed" : false,
+      "cities" : [
+        {
+          "name" : "Київ",
+          "englishName" : "Kiev",
+          "slug" : "kiev",
+          "population" : "2,962,180",
+          "lat" : 50.45,     
+          "lng" : 30.523333,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Харків",
+          "englishName" : "Kharkiv",
+          "slug" : "kharkiv",
+          "population" : "1,433,886",
+          "lat" : 50.004444,     
+          "lng" : 36.231389,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Одеса",
+          "englishName" : "Odessa",
+          "slug" : "odessa",
+          "population" : "1,015,826",
+          "lat" : 46.485722,     
+          "lng" : 30.743444,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Дніпро",
+          "englishName" : "Dnipro",
+          "slug" : "dnipro",
+          "population" : "980,948",
+          "lat" : 48.4675,     
+          "lng" : 35.04,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Донецьк",
+          "englishName" : "Donetsk",
+          "slug" : "donetsk",
+          "population" : "905,364",
+          "lat" : 48.002778,     
+          "lng" : 37.805278,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Запоріжжя",
+          "englishName" : "Zaporizhzhia",
+          "slug" : "zaporizhzhia",
+          "population" : "722,713",
+          "lat" : 47.85,     
+          "lng" : 35.1175,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Львів",
+          "englishName" : "Lviv",
+          "slug" : "lviv",
+          "population" : "717,486",
+          "lat" : 49.83,     
+          "lng" : 24.014167,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Кривий Ріг",
+          "englishName" : "Kryvyi Rih",
+          "slug" : "kryvyi-rih",
+          "population" : "612,750",
+          "lat" : 47.9,     
+          "lng" : 33.35,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Миколаїв",
+          "englishName" : "Mykolaiv",
+          "slug" : "mykolaiv",
+          "population" : "476,101",
+          "lat" : 46.966667,     
+          "lng" : 32,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Севастополь",
+          "englishName" : "Sevastopol",
+          "slug" : "sevastopol",
+          "population" : "509,992",
+          "lat" : 44.6,    
+          "lng" : 33.5333,
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        }
+      ]
+    },
+    {
+      "name" : "Cidade de Portugal",
+      "slug" : "cidade-de-portugal",
+      "country" : "portugal",
+      "flag" : "pt.png",
+      "year" : "2022",
+      "type" : "megacity",
+      "completed" : false,
+      "cities" : [
+        {
+          "name" : "Lisboa",
+          "englishName" : "Lisbon",
+          "slug" : "lisboa",
+          "population" : "2,871,133",
+          "lat" : 38.725267,
+          "lng" : "-9.150019",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Porto",
+          "slug" : "porto",
+          "population" : "1,737,395",
+          "lat" : 41.162142,
+          "lng" : "-8.62195",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Braga",
+          "slug" : "braga",
+          "population" : "193,333",
+          "lat" : 41.551111,
+          "lng" : "-8.428333",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Almada",
+          "slug" : "almada",
+          "population" : "174,030",
+          "lat" : 38.680278,
+          "lng" : "-9.158333",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Coimbra",
+          "slug" : "coimbra",
+          "population" : "143,396",
+          "lat" : 40.211111,
+          "lng" : "-8.429167",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Setúbal",
+          "slug" : "setubal",
+          "population" : "118,166",
+          "lat" : 38.524306,
+          "lng" : "-8.892611",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Funchal",
+          "slug" : "funchal",
+          "population" : "105,795",
+          "lat" : 32.65,
+          "lng" : "-16.916667",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Aveiro",
+          "slug" : "aveiro",
+          "population" : "80.880",
+          "lat" : 40.633333,
+          "lng" : "-8.65",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Faro",
+          "slug" : "faro",
+          "population" : "60,995",
+          "lat" : 37.016111,
+          "lng" : "-7.935",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        },
+        {
+          "name" : "Lagos",
+          "slug" : "lagos",
+          "population" : "31,049",
+          "lat" : 37.102778,
+          "lng" : "-8.672778",
+          "video" : "",
+          "artist" : "",
+          "title" : ""
+        }
+      ]
+    },
+    {
           "name" : "Skate City",
           "slug" : "skate-city",
           "country" : "Skatica",

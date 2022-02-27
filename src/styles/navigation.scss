@@ -1,0 +1,149 @@
+@import './vars.scss';
+
+.background-dark {
+    z-index: 200;
+    position: fixed;
+    top: -107px;
+    right: -77px;
+    width: 130px;
+    height: 130px;
+    background: $photoboxRGBA;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    transform: rotate(-18deg);
+    padding: 120px 0 200px 0;
+    transition: all .5s ease;
+  }
+  
+  .background-dark-open {
+    transform: rotate(-45deg);
+    top: -156px;
+    right: -156px;
+    transition: all .5s ease;
+  }
+  
+  .navigation {
+    z-index: 201;
+    position: fixed;
+    top: -104px;
+    right: -74px;
+    width: 130px;
+    border-left: 1px solid $lightHex;
+    background: rgba(255,255,255,0.15);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    transform: rotate(-18deg);
+    padding: 110px 0 200px 0;
+    transition: all .5s ease;
+    
+      a {
+        color: $light;
+        font-weight: 400;
+        font-size: 12px;
+        text-decoration: none;
+        opacity: .7;
+        padding: 7px 0 7px 14px;
+    
+        &:hover {
+          text-decoration: underline;
+          opacity: 1;
+        }
+    
+        svg {
+          fill: $light;
+          opacity: .7;
+          width: 22px;
+          padding: 0 0 0 14px;
+        }
+      }
+    
+      .link {
+        opacity: .7;
+        transition: opacity .3s ease;
+      }
+    
+      .link-on {
+        opacity: 0;
+        transition: opacity .3s ease;
+      }
+  
+      .instagram {
+        padding: 7px 0 7px 0;
+      }
+  
+      .globe {
+        padding: 7px 0 0 0;
+      }
+    }
+    
+    .navigation-on {
+      transform: rotate(-45deg);
+      top: -147px;
+      right: -150px;
+      transition: all .5s ease;
+    }
+    
+    .arrows {
+      position: fixed;
+      top: -9px;
+      right: 2px;
+      display: flex;
+      flex-direction: row;
+      z-index: 1001;
+      transform: rotate(-45deg);
+      transition: all .5s ease;
+      padding: 25px 5px;
+      cursor: pointer;
+    
+      .arrow svg {
+        width: 8px;
+        height: 16px;
+        fill: $light;
+        cursor: pointer;
+      }
+    
+      .first svg {
+        opacity: .7;
+        transition: all .5s ease;
+        transform: rotateY(180deg);
+      }
+    
+      .first-on svg{
+        opacity: .3;
+        transition: all .5s ease;
+        transform: rotateY(0deg);
+      }
+    
+      .second svg {
+        opacity: .5;
+        transform: rotateY(180deg);
+        transition: all .5s ease;
+      }
+    
+      .second-on svg {
+        transform: rotateY(0deg);
+        transition: all .5s ease;
+      }
+    
+      .third svg {
+        opacity: .3;
+        transform: rotateY(180deg);
+        transition: all .5s ease;
+      }
+    
+      .third-on svg {
+        opacity: .7;
+        transform: rotateY(0deg);
+        transition: all .5s ease;
+      }
+    }
+    
+    .arrows-on {
+      top: -36px;
+      right: -14px;
+      transform: rotate(-45deg);
+      transition: all .5s ease;
+      padding: 45px 23px 52px 7px;
+    }

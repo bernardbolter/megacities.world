@@ -2,10 +2,11 @@ import React, { useState, useEffect, useContext } from 'react'
 import { MegaContext } from "../providers/MegaProvider"
 import { useWindowSize } from "../helpers/useWindowSize"
 
+import Nav from '../components/Nav'
 import Logo from '../components/Logo'
 import CountryNav from '../components/CountryNav'
 import Loader from '../components/Loader'
-import Arrow from '../components/Arrow'
+import Arrow from '../svg/Arrow'
 
 import City from '../components/City'
 import SkateCity from '../components/SkateCity'
@@ -62,6 +63,7 @@ const Series = () => {
         <main className={styles.container}>
             <Logo />
             <CountryNav setMegaIndex={setMegaIndex} />
+            <Nav />
             {cityWidth !== 0 && megaWidth !== 0 ? (
                 <div 
                     className={styles.megacities}

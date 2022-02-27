@@ -50,7 +50,8 @@ const MegaProvider = ({ children }) => {
         shuffledMegacities: [],
         greetings: [],
         url: 'https://madeinberlin.net/artwork/megacities/',
-        megaIndexSlug: ''
+        megaIndexSlug: '',
+        navOpen: true
     })
 
     useEffect(() => {
