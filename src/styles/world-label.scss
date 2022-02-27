@@ -1,0 +1,130 @@
+.world-header-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.world-header-text-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    img {
+        margin: 0 0 0 10px;
+        width: 20px;
+    }
+}
+
+.world-english-block {
+    font-size: 12px;
+    font-weight: 200;
+    color: rgba(255,255,255,.5);
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+}
+
+.world-english-block-empty {
+    height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.world-header-block-text {
+    color: rgba(255,255,255,.7);
+    font-weight: 800;
+    font-size: 14px;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+}
+
+.world-cities-wrap {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.world-cities-name {
+    font-size: 14px;
+    margin: 0 10px 0 0;
+    padding: 0;
+}
+
+.world-cities-english-name {
+    position: absolute;
+    font-size: 8px;
+    margin: 20px 0 0 10px; 
+}
+
+.world-cities-pop-total {
+    font-size: 12px;
+    color: rgba(255,255,255,.5);
+    font-weight: 800; 
+}
+
+.world-pop-wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.world-pop-text {
+    color: rgba(255,255,255,.5);
+    font-weight: 200;
+    font-size: 14px;
+    white-space: nowrap;
+    margin: 0;
+    padding: 0;
+}
+
+.world-pop-total {
+    font-size: 14px;
+    color: rgba(255,255,255,.5);
+    font-weight: 800; 
+}
+
+.world-label {
+    background: rgba(0,0,0,.6);
+    padding: 10px 20px;
+    min-width: 200px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.world-label-list {
+    width: 100%;
+}
+
+.world-label-pop {
+    width: 100%;
+    text-align: right;
+}
+
+.world-label-h2 {
+    color: rgba(255,255,255,.7);
+    font-size: 12px;
+    font-weight: 800;
+}
+
+.world-label-horo-top {
+    width: 100%;
+    height: 1px;
+    background: rgba(255,255,255,.5);
+    margin: 10px 0;
+}
+
+.world-label-horo-bottom {
+    width: 100%;
+    height: 1px;
+    background: rgba(255,255,255,.5);
+    margin: 5px 0 0;
+}

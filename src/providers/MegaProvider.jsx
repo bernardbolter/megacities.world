@@ -48,7 +48,8 @@ const MegaProvider = ({ children }) => {
     const [mega, setMega] = useState({
         megacities: [],
         world: [],
-        greetings: []
+        greetings: [],
+        url: 'https://madeinberlin.net/artwork/megacities/'
     })
 
     useEffect(() => {
