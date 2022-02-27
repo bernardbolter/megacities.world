@@ -257,6 +257,13 @@
     }
 }
 
+.artText {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
 .artSize {
     font-size: 9px;
     font-weight: 500;

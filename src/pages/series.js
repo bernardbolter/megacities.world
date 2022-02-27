@@ -5,13 +5,14 @@ import { useWindowSize } from "../helpers/useWindowSize"
 import Logo from '../components/Logo'
 import CountryNav from '../components/CountryNav'
 import Loader from '../components/Loader'
+import Arrow from '../components/Arrow'
 
 import City from '../components/City'
 import SkateCity from '../components/SkateCity'
 
-import * as styles from '../styles/cities.module.scss'
+import * as styles from '../styles/series.module.scss'
 
-const Cities = () => {
+const Series = () => {
     const [mega, setMega] = useContext(MegaContext)
     const size = useWindowSize()
     const [cityWidth, setCityWidth] = useState(0)
@@ -92,32 +93,27 @@ const Cities = () => {
             ) : (
                 <Loader />
             )}
-            {/* {winWidth > 769 && (
-                <div className="megacities-bottom">
-                    <HomeNav
-                        url={url}
-                        shuffledCities={shuffledCities}
-                        setMegaIndex={setMegaIndex}
-                    />
-                    <div className={megaIndex > 0 ? "megacities-bottom-left" : 'megacities-bottom-left megacities-bottom-disabled'}
+            {size.width > 769 && (
+                <div className={styles.bottom}>
+                    <div className={megaIndex > 0 ? styles.bottomLeft : styles.bottomLeftDisabled}
                         onClick={() => megaIndex > 0 ? setMegaIndex(megaIndex - 1) : null}
                     >
                         {megaIndex > 0 && (
-                            <div className="megacities-arrows-left">
+                            <div className={styles.arrowsLeft}>
                                 <Arrow />
                                 <Arrow />
                                 <Arrow />
                             </div>
                         )}
-                        <div className="megacities-line-left" />
+                        <div className={styles.lineLeft} />
                     </div>
                     <div 
-                        className={megaIndex !== shuffledCities.length - 1 ? "megacities-bottom-right" : "megacities-bottom-right megacities-bottom-disabled"}
-                        onClick={() => megaIndex !== shuffledCities.length -1 ? setMegaIndex(megaIndex + 1) : null}
+                        className={megaIndex !== mega.shuffledMegacities.length - 1 ? styles.bottomRight : styles.bottomRightDisabled}
+                        onClick={() => megaIndex !== mega.shuffledMegacities.length -1 ? setMegaIndex(megaIndex + 1) : null}
                     >
-                        <div className="megacities-line-right" />
-                        {megaIndex !== shuffledCities.length - 1 && (
-                            <div className="megacities-arrows-right">
+                        <div className={styles.lineRight} />
+                        {megaIndex !== mega.shuffledMegacities.length - 1 && (
+                            <div className={styles.arrowsRight}>
                                 <Arrow />
                                 <Arrow />
                                 <Arrow />
@@ -125,15 +121,15 @@ const Cities = () => {
                         )}
                     </div>
                     <p 
-                        className="scroll-right"
+                        className={styles.scrollRight}
                         style={{
-                            left: (winWidth / 2) + 30
+                            left: (size.width / 2) + 30
                         }}
                     >scroll right</p>
                 </div>
-            )} */}
+            )}
         </main>
     )
 }
 
-export default Cities
+export default Series

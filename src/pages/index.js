@@ -110,7 +110,7 @@ const IndexPage = () => {
             polygonsTransitionDuration={300}
             onPolygonClick={({ slug }) => {
                 setMega(state => ({ ...state, megaIndexSlug: slug }))
-                navigate("/cities/")
+                navigate("/series/")
             }}
         />
         {(hoverD !== null) && (hoverD) && (

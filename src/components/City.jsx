@@ -80,9 +80,9 @@ const City = ({
                     <p className={styles.population}>{totalPopulation.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}</p>
                 </div>
                 <div className={styles.artInfo}>
-                    <div>
+                    <div className={styles.artText}>
                         <p className={styles.artSize}>121cm x 169cm</p>
-                        <div className={styles.line} />
+                        <div className={styles.artLine} />
                         <p className={styles.artSize}>48" x 69"</p>
                         <p className={styles.artYear}>{megacity.year}</p>
                     </div>
