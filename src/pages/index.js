@@ -1,7 +1,8 @@
-import React, { useState, useEffect, useContext } from 'react'
+import React, { useState, useEffect, useContext, useMemo } from 'react'
 import { Link, navigate } from 'gatsby'
 import { MegaContext } from "../providers/MegaProvider"
-import Globe from 'react-globe.gl'
+import Loadable from '@loadable/component'
+// import Globe from 'react-globe.gl'
 
 import Logo from '../components/Logo'
 import Nav from '../components/Nav'
@@ -11,6 +12,8 @@ import Sky from '../images/night-sky.png'
 
 import * as styles from '../styles/index.module.scss'
 import '../styles/world-label.scss'
+
+const Globe = Loadable(() => import('react-globe.gl'))
 
 const IndexPage = () => {
   const [mega, setMega] = useContext(MegaContext)
