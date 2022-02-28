@@ -51,7 +51,7 @@ const MegaProvider = ({ children }) => {
         greetings: [],
         url: 'https://madeinberlin.net/artwork/megacities/',
         megaIndexSlug: '',
-        navOpen: true
+        navOpen: false
     })
 
     useEffect(() => {

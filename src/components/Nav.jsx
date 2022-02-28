@@ -7,18 +7,24 @@ import Globe from '../svg/Globe'
 import Instagram from '../svg/Instagram'
 import Arrow from '../svg/Arrow'
 
-import * as styles from '../styles/nav.module.scss'
 import '../styles/navigation.scss'
 
 const Nav = () => {
     const [mega, setMega] = useContext(MegaContext)
     return (
-        <div className={styles.container}>
+        <div className="navigation-container">
             <div 
                 className={mega.navOpen ? 'arrows arrows-on' : 'arrows'}
                 onClick={() => {
                     setMega(state => ({ ...state, navOpen: !state.navOpen }))
                 }}
+                onKeyDown={(ev) => {
+                    if (ev.keyCode === 13) {
+                        setMega(state => ({ ...state, navOpen: !state.navOpen }))
+                       }
+                }}
+                role="button"
+                tabIndex={0}
             >
                 <div className={mega.navOpen ? 'arrow first' : 'arrow first first-on'}>
                     <Arrow />

@@ -3,8 +3,8 @@ import { Link, navigate } from 'gatsby'
 import { MegaContext } from "../providers/MegaProvider"
 import Globe from 'react-globe.gl'
 
-import Nav from '../components/Nav'
 import Logo from '../components/Logo'
+import Nav from '../components/Nav'
 import WorldGeo from '../data/world/world.json'
 import Map from '../images/flag-world.jpg'
 import Sky from '../images/night-sky.png'

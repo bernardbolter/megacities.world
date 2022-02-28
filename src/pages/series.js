@@ -2,8 +2,8 @@ import React, { useState, useEffect, useContext } from 'react'
 import { MegaContext } from "../providers/MegaProvider"
 import { useWindowSize } from "../helpers/useWindowSize"
 
-import Nav from '../components/Nav'
 import Logo from '../components/Logo'
+import Nav from '../components/Nav'
 import CountryNav from '../components/CountryNav'
 import Loader from '../components/Loader'
 import Arrow from '../svg/Arrow'
@@ -14,7 +14,7 @@ import SkateCity from '../components/SkateCity'
 import * as styles from '../styles/series.module.scss'
 
 const Series = () => {
-    const [mega, setMega] = useContext(MegaContext)
+    const [mega] = useContext(MegaContext)
     const size = useWindowSize()
     const [cityWidth, setCityWidth] = useState(0)
     const [megaWidth, setMegaWidth] = useState(0)
@@ -99,6 +99,13 @@ const Series = () => {
                 <div className={styles.bottom}>
                     <div className={megaIndex > 0 ? styles.bottomLeft : styles.bottomLeftDisabled}
                         onClick={() => megaIndex > 0 ? setMegaIndex(megaIndex - 1) : null}
+                        onKeyDown={(ev) => {
+                            if (ev.keyCode === 13 && megaIndex > 0) {
+                                setMegaIndex(megaIndex - 1)
+                            }
+                        }}
+                        role="button"
+                        tabIndex={0}
                     >
                         {megaIndex > 0 && (
                             <div className={styles.arrowsLeft}>
@@ -111,7 +118,14 @@ const Series = () => {
                     </div>
                     <div 
                         className={megaIndex !== mega.shuffledMegacities.length - 1 ? styles.bottomRight : styles.bottomRightDisabled}
-                        onClick={() => megaIndex !== mega.shuffledMegacities.length -1 ? setMegaIndex(megaIndex + 1) : null}
+                        onClick={() => megaIndex !== mega.shuffledMegacities.length -1 ? setMegaIndex(megaIndex + 1) : null }
+                        onKeyDown={(ev) => {
+                            if (ev.keyCode === 14 && megaIndex !== mega.shuffledMegacities.length -1) {
+                                setMegaIndex(megaIndex + 1)  
+                            }
+                        }}
+                        role="button"
+                        tabIndex={-1}
                     >
                         <div className={styles.lineRight} />
                         {megaIndex !== mega.shuffledMegacities.length - 1 && (

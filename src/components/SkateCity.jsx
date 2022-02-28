@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useContext } from 'react'
-import { navigate } from 'gatsby'
 import { Img } from 'react-image'
 import { MegaContext } from '../providers/MegaProvider'
 import { useWindowSize} from '../helpers/useWindowSize'
@@ -14,7 +13,7 @@ const SkateCity = ({
     cityHeight,
     alignCenter
 }) => {
-    const [mega, setMega] = useContext(MegaContext)
+    const [mega] = useContext(MegaContext)
     const size = useWindowSize()
     const [uniqueCities, setUniqueCities] = useState(0)
     const [uniqueStates, setUniqueStates] = useState(0)
@@ -57,11 +56,14 @@ const SkateCity = ({
 
             <div 
                 className={styles.image}
-                style={{ width: cityWidth }}
+                style={{ 
+                    width: size.width > 768 ? cityWidth : "90%"
+                }}
             >
                 <Img
                     src={`${mega.url}/${skateCity.slug}/${skateCity.slug}_md.jpg`}
                     alt={`${skateCity.name}`}
+                    style={{ width: size.width > 768 ? cityWidth : "100%" }}
                     loader={
                         <div
                             className={styles.loader}

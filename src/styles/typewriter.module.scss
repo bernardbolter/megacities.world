@@ -1,0 +1,44 @@
+@import './vars.scss';
+
+.container {
+    h1 {
+        position: fixed;
+        font-size: 24px;
+        font-weight: 600;
+        color: rgb(254,255,256);
+        opacity: .1;
+        left: 5%;
+        top: 49px;
+        padding: 0;
+        margin: 0;
+
+        @media only screen and (min-width: $medium) {
+            font-size: 39px;
+        }
+
+        @media only screen and (min-width: $large) {
+            font-size: 49px;
+        }
+    }
+
+    h2 {
+        position: fixed;
+        top: 85px;
+        bottom: auto;
+        left: 7%;
+        font-size: 11px;
+        letter-spacing: 0.04em;
+        font-weight: 300;
+        color: rgb(243,247,250);
+        opacity: .3;
+
+        @media only screen and (min-width: $medium) {
+            top: auto;
+            bottom: 5px;
+            left: 25px;
+            font-size: 12px;
+            font-weight: 500;
+            opacity: .5;
+        }
+    }
+}

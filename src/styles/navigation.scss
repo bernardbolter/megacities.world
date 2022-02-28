@@ -4,7 +4,7 @@
     z-index: 200;
     position: fixed;
     top: -107px;
-    right: -77px;
+    right: -73px;
     width: 130px;
     height: 130px;
     background: $photoboxRGBA;
@@ -18,8 +18,8 @@
   
   .background-dark-open {
     transform: rotate(-45deg);
-    top: -156px;
-    right: -156px;
+    top: -149px;
+    right: -149px;
     transition: all .5s ease;
   }
   
@@ -40,11 +40,11 @@
     
       a {
         color: $light;
-        font-weight: 400;
-        font-size: 12px;
+        font-weight: 600;
+        font-size: 13px;
         text-decoration: none;
         opacity: .7;
-        padding: 7px 0 7px 14px;
+        padding: 4px 0 4px 14px;
     
         &:hover {
           text-decoration: underline;

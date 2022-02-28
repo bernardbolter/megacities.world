@@ -1,5 +1,4 @@
 import React, { useState, useContext } from 'react'
-import { navigate } from 'gatsby'
 import { Img } from "react-image";
 import { useWindowSize } from "../helpers/useWindowSize";
 
@@ -13,8 +12,7 @@ const City = ({
     cityWidth,
     cityHeight 
 }) => {
-    console.log(cityHeight)
-    const [mega, setMega] = useContext(MegaContext)
+    const [mega] = useContext(MegaContext)
     let totalPopulation = 0
     const [viewUnfinished, setViewUnfinished] = useState(false)
     const size = useWindowSize()
@@ -23,11 +21,6 @@ const City = ({
         <div 
             className={styles.container}
             style={{ curser: megacity.completed ? "pointer" : "default" }}
-        //     onClick={() => {
-        //         if (megacity.completed) {
-        //             navigate(`/${megacity.slug}`)
-        //         }
-        //    }}
         >
             <div 
                 className={styles.image}
@@ -105,7 +98,16 @@ const City = ({
                     ) : (
                         <div 
                             className={styles.warning}
-                            onClick={() => setViewUnfinished(!viewUnfinished)}    
+                            onClick={() => {
+                                setViewUnfinished(!viewUnfinished)
+                            }}
+                            onKeyDown={(ev) => {
+                                if (ev.keyCode === 13) {
+                                    setViewUnfinished(!viewUnfinished)
+                                   }
+                            }}
+                            role="button"
+                            tabIndex={0}
                         >
                             <div className={styles.warningText}>
                                 <svg viewBox="0 0 61 62">
