@@ -23,11 +23,11 @@ const City = ({
         <div 
             className={styles.container}
             style={{ curser: megacity.completed ? "pointer" : "default" }}
-            onClick={() => {
-                if (megacity.completed) {
-                    navigate(`/${megacity.slug}`)
-                }
-           }}
+        //     onClick={() => {
+        //         if (megacity.completed) {
+        //             navigate(`/${megacity.slug}`)
+        //         }
+        //    }}
         >
             <div 
                 className={styles.image}
@@ -55,7 +55,7 @@ const City = ({
             </div>
 
             <div className={styles.infoContainer}
-                style={{ height: size.height < 769 ? cityHeight : "auto" }}
+                style={{ height: size.height > 769 ? cityHeight : "auto" }}
             >
                 <div className={styles.info}>
                     <div className={styles.header}>
@@ -86,7 +86,7 @@ const City = ({
                         <p className={styles.artSize}>48" x 69"</p>
                         <p className={styles.artYear}>{megacity.year}</p>
                     </div>
-                    {megacity.completed ? (
+                    {megacity.completed === null ? (
                         <div className={styles.enlarge}>
                             <svg viewBox="0 0 58 59">
                                 <path d="M30.353 14.646H42.28L25.789 31.136H0.0979919V33.591V43.413V51.6V58.4H6.89899H15.085H24.907H27.36V34.373L44.685 17.051V28.979H48.085V11.246H30.353V14.646ZM23.959 55H15.084H6.89799H3.49799V51.6V43.414V34.537H23.959V55Z" />
@@ -118,7 +118,7 @@ const City = ({
                             </div>
                         {viewUnfinished && (
                             <div className={styles.unfinished}>
-                                <p>Only the composition of this image has been finished and not the full resolution one.</p>
+                                <p>Site is under construction, come back soon to see the full Megacity image</p>
                             </div>
                         )}
                         </div>
