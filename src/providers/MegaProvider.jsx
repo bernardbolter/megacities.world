@@ -49,7 +49,7 @@ const MegaProvider = ({ children }) => {
         megacities: [],
         shuffledMegacities: [],
         greetings: [],
-        url: 'https://madeinberlin.net/artwork/megacities/',
+        url: 'https://thefilterman.de/artwork/megacities/',
         megaIndexSlug: '',
         navOpen: false
     })

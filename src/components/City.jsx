@@ -53,7 +53,7 @@ const City = ({
                 <div className={styles.info}>
                     <div className={styles.header}>
                         <div className={styles.flag}>
-                            <img src={`${mega.url}/flags/${megacity.flag}`} alt={`${megacity.country} Flag`} />
+                            <img src={`${mega.url}flags/${megacity.flag}`} alt={`${megacity.country} Flag`} />
                         </div>
                         <h1>{megacity.name}</h1>
                     </div>

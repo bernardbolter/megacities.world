@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext, useMemo } from 'react'
 import { Link, navigate } from 'gatsby'
 import { MegaContext } from "../providers/MegaProvider"
 import Loadable from '@loadable/component'
-// import Globe from 'react-globe.gl'
+import { useWindowSize } from '../helpers/useWindowSize'
 
 import Logo from '../components/Logo'
 import Nav from '../components/Nav'
@@ -18,8 +18,8 @@ const Globe = Loadable(() => import('react-globe.gl'))
 const IndexPage = () => {
   const [mega, setMega] = useContext(MegaContext)
   const [hoverD, setHoverD] = useState()
-
   const [allMegas, setAllMegas] = useState([])
+  const size = useWindowSize()
 
   useEffect(() => {
     var onlyCities = mega.megacities.filter(mega => mega.slug !== 'skate-city')
@@ -99,29 +99,37 @@ const IndexPage = () => {
             polygonCapColor={d => d === hoverD ? 'transparent' : 'rgba(255,255,255,.1'}
             polygonSideColor={() => 'rgba(255, 255, 255, 0.1)'}
             polygonStrokeColor={() => 'transparent'}
-            polygonLabel={({ cities: c, flag: f, name: n, englishName: e }) => `
-                <div class="world-label">
-                    ${makeHeader(n,e,f)}
-                    <div class="world-label-horo-top"></div>
-                    <div class="world-label-list">${makeCities(c)}</div>
-                    <div class="world-label-horo-bottom"></div>
-                    <div class="world-pop-wrap">
-                        <p class="world-pop-text">total population:</p>
-                        <p class="world-pop-total">${makePop(c)}</p>
-                    </div>
-                </div>
-            `}
+            polygonLabel={({ cities: c, flag: f, name: n, englishName: e }) => {
+                if (size.width > 768) {
+                    return (`
+                        <div class="world-label">
+                            ${makeHeader(n,e,f)}
+                            <div class="world-label-horo-top"></div>
+                            <div class="world-label-list">${makeCities(c)}</div>
+                            <div class="world-label-horo-bottom"></div>
+                            <div class="world-pop-wrap">
+                                <p class="world-pop-text">total population:</p>
+                                <p class="world-pop-total">${makePop(c)}</p>
+                            </div>
+                        </div>
+                    `)
+                }
+            }}
             onPolygonHover={setHoverD}
             polygonsTransitionDuration={300}
-            onPolygonClick={({ slug }) => {
-                setMega(state => ({ ...state, megaIndexSlug: slug }))
-                navigate("/series/")
+            onPolygonClick={({ slug, cities, size }) => {
+                console.log(size)
+                // if (size.width > 768) {
+                //     setMega(state => ({ ...state, megaIndexSlug: slug }))
+                //     navigate("/series/")
+                // } else {
+                //     console.log(cities)
+                // }
             }}
         />
-        {(hoverD !== null) && (hoverD) && (
+        {(hoverD !== null) && (hoverD) && (size.width > 768) (
             <div className={styles.thumbnail}>
-            <p>image</p>
-            <img src={`${mega.url}/${hoverD.slug}/${hoverD.slug}_sm.jpg`} alt={hoverD.slug} />
+                <img src={`${mega.url}/${hoverD.slug}/${hoverD.slug}_sm.jpg`} alt={hoverD.slug} />
             </div>
         )}
     </main>
